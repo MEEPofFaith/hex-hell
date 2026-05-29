@@ -18,7 +18,7 @@ Single's Purification
     Intent Section
     Integration Distillation
     Contemplation
-    <"Text">
+    <"Insert Text">
     Intent Input
     Integration Distillation
     {
@@ -40,41 +40,50 @@ Single's Purification
     Dioscuri Gambit
     //Stack: [Intents], [Text], [Text], [Quine], [Text], [Quine]
     {
-        Nut's Gambit // 4
-        Vector Exaltation
-        Numerical Reflection: 255
-        Division Distillation
-        Jester's Gambit
-        Reading Purification (text)
-        Reading Purification (text)
-        Gemini Decomposition
-        Length Purification
-        Decrementation Purification
-        Numerical Reflection: 1
-        Selection Distillation
-        Jester's Gambit
-        Lumiere's Gambit
-        Jester's Gambit
-        Length Purification
-        Numerical Reflection: 2
-        Division Distillation
-        Numerical Reflection: 0
-        Selection Distillation
-        Integration Distillation
+        Flock's Reflection
+        Numerical Reflection: 5
+        Equality Distillation
+        {
+            Nut's Gambit // 4
+            Vector Exaltation
+            Numerical Reflection: 255
+            Division Distillation
+            Jester's Gambit
+            Reading Purification (text)
+            Reading Purification (text)
+            Gemini Decomposition
+            Length Purification
+            Decrementation Purification
+            Numerical Reflection: 1
+            Selection Distillation
+            Jester's Gambit
+            Lumiere's Gambit
+            Jester's Gambit
+            Length Purification
+            Numerical Reflection: 2
+            Division Distillation
+            Numerical Reflection: 0
+            Selection Distillation
+            Integration Distillation
+        }
         Contemplation
-        Patience //Inner index: 22
+        Bookkeeper's Gambit: vvv-
+        Augur's Exaltation
+        Hermes' Gambit
+        Contemplation
+        Patience //Inner index: 31
         Numerical Reflection: 33
         Build Nested
         Hermes' Gambit
     }
-    Numerical Reflection: 22
+    Numerical Reflection: 31
     Rotation Gambit
     Surgeon's Exaltation]
     Jester's Gambit
     Bubbles' Purification
     Speaker's Distillation
     Contemplation
-    <"Next">
+    <"Append">
     Intent Button
     Single's Purification
     //Stack: [Intents], [Text], [Text], [Quine], [Next]
@@ -118,7 +127,10 @@ Single's Purification
         Additive Distillation
         Rotation Gambit
         Apep's Gambit
-        Conjure Hexburst
+        {
+            Conjure Hexburst
+        }
+        Lani's Greater Gambit
         Sekhmet's Gambit //0
     }
     Additive Distillation
