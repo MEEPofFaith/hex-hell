@@ -32,19 +32,18 @@ Single's Purification
     Contemplation
     <[R, G, B]>
     Nehmetawy's Gambit
-    Additive Distillation
+    Additive Distillation //29
     //Stack: [Text], [Intents]
-    Contemplation
-    Patience // Index: 31
     {
         Contemplation
         Patience
-        Numerical Reflection: 30
+        Numerical Reflection: 39
         Build Nested
         Hermes' Gambit
     }
     Numerical Reflection: 1
-    Rotation Gambit
+    Contemplation
+    Patience // Index: 39
     Surgeon's Exaltation
     //Stack: [Text], [Intents], [Quine]
     { //Append - Inner stack: [Text], Text?, R, G, B
@@ -135,6 +134,6 @@ Single's Purification
     <"Text Builder">
     Manefest List
 }
-Numerical Reflection: 30
+Numerical Reflection: 39
 Build Nested
 Hermes' Gambit
