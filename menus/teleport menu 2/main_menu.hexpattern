@@ -1,0 +1,96 @@
+Charmed Reflection
+Retention Gambit: Augur's
+{
+    Bookkeeper's Gambit: v
+    Impasse Reflection
+    Contemplation
+    <"Bases">
+    Impasse Reflection
+    Surgeon's Exaltation
+    Contemplation
+    <"Important">
+    Impasse Reflection
+    Surgeon's Exaltation
+    Contemplation
+    <"Other">
+    Impasse Reflection
+    Surgeon's Exaltation
+}
+Selene's Gambit
+// Destination storage: string -> (string -> presence)
+// Categories: Bases, Important, Other
+{
+    Contemplation
+    <"Bases">
+    Locator's Distillation
+    Contemplation
+    <"Home">
+    Locator's Distillation
+    Retention Gambit: Augur's
+    Contemplation
+    <"No destination named "Home" in the Bases category!">
+    Ma'at's Gambit
+    Mind's Reflection
+    Compass' Purification
+    Mind's Reflection
+    Alidade's Purification
+    Vector Reflection +X
+    Vector Reflection +Z
+    Additive Distillation
+    Hadamard Distillation
+    Norm Purification
+    Retention Gambit: Augur's
+    {
+        Bookkeeper's Gambit: v
+        Vector Reflection -Z
+    }
+    Selene's Gambit
+    Jester's Gambit
+    Numerical Reflection: 10
+    Contemplation
+    <"Home">
+    Manifest Threshold
+}
+Contemplation
+<"Teleport Home">
+Intent Button
+{
+    Sekhmet' Gambit // 0
+    {
+        Mind's Reflection
+        Compass' Purification II
+        Planar Marking
+        Planar Reflection
+        Mind's Reflection
+        Planar Intrusion
+    }
+    Contemplation
+    <"Yes">
+    Intent Button
+    {
+        Planar Reflection
+        Mind's Reflection
+        Planar Intrusion
+    }
+    Contemplation
+    <"No">
+    Intent Button
+    Numerical Reflection: 2
+    Flock's Gambit
+    Contemplation
+    <"Set Return Point?">
+    Manifest List Menu
+}
+Contemplation
+<"Enter Hexplane">
+Intent Button
+Contemplation
+<Destinations Menu>
+Contemplation
+<"Other Destinations">
+Intent Button
+Numerical Reflection: 3
+Flock's Gambit
+Contemplation
+<"Warp Menu">
+Manifest List Menu
