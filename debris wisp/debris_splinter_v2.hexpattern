@@ -11,6 +11,7 @@ Axial Purification
 Polar Decomposition
 Bookkeeper's Gambit: v-
 Yaw Purification
+Axial Purification // Cubic exalt is fucked
 // Stack: Direction
 Mind's Reflection
 Compass' Purification
@@ -140,9 +141,8 @@ Rotation Gambit
 Surgeon's Exaltation
 //Stack: [Origins], [Splinter code]
 { //Inner stack: [Code], Origin, Delay
-    Numerical Reflection: 0
     Rotation Gambit
     Manifest Splinter
 }
 Rotation Gambit
-Thoth's Gambit
+Djehuty's Gambit // The delay helps with avoiding the limit.
