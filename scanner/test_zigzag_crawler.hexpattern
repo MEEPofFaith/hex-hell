@@ -55,8 +55,9 @@
     Geb's Gambit // 3
     // Stack: [], Bounds, Ox, OY, ixy, Bz
     Undertaker's Gambit
-    Incrementation Purification
-    // Stack: [], Bounds, Ox, OY, Bz, ixy, Bz+1
+    Numerical Reflection: 2
+    Additive Distillation
+    // Stack: [], Bounds, Ox, OY, Bz, ixy, Bz+2
     Modulus Distillation
     // Stack: [], Bounds, Ox, OY, Bz, Oz
     Undertaker's Gambit
