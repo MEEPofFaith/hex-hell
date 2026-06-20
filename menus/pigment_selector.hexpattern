@@ -4,6 +4,7 @@
     Single's Purification
     {
         Internalize Pigment II
+        Hallucinate Pling
     }
     Additive Distillation
     Jester's Gambit
@@ -11,6 +12,7 @@
     Intent Button
 }
 {
+    Hallucinate Click
     Contemplation
     <Pigments Property>
     Observation Purification // Expect a list of lists
@@ -29,6 +31,7 @@ Contemplation
 <"Pigments">
 Intent Button
 {
+    Hallucinate Click
     Contemplation
     <Ourglimmer Property>
     Observation Purification // Expect a dict
