@@ -1,4 +1,9 @@
 // Stack: Origin, Bounds, [Longs]
+Rotation Gambit
+Floor Purification
+Vector Reflection: (0.5, 0.5, 0.5)
+Additive Distillation
+Rotation Gambit II
 Retrograde Purification
 Long Reflection // 1
 Numerical Reflection: 2
@@ -13,7 +18,7 @@ Contemplation
 Numerical Reflection: 10
 Rotation Gambit
 Surgeon's Exaltation
-Numerical Reflection: 43
+Numerical Reflection: 54
 // Splinter Operation
 { // Stack: ..., Pos, [sgnoL], BitL
     Gemini Decomposition

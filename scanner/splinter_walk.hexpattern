@@ -32,11 +32,16 @@ Helios' Gambit
     // Stack: LostPos, Origin, Pos
     Gemini Decomposition
     Ambit Purification
-    { // Pos in ambit, update LastPos
+    Thanatos' Reflection
+    Contemplation
+    <1000>
+    Maximus Distillation
+    Conjunction Distillation
+    { // Pos in ambit && enough ops, update LastPos and continue
         Bookkeeper's Gambit: v--
         Undertaker's Gambit
     }
-    { // Pos not in ambit, move
+    { // Pos not in ambit or low on ops, move
         Bookkeeper's Gambit: vv
         Numerical Reflection: 0
         Renew Splinter
@@ -49,7 +54,7 @@ Helios' Gambit
     Retrieve Idea
     Flock's Disintegration
     Contemplation
-    Patience // Splinter Operation - Index: 49
+    Patience // Splinter Operation - Index: 54
     Hermes' Gambit
     Flock's Reflection
     Numerical Reflection: 2
