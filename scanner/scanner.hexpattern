@@ -51,9 +51,40 @@ Numerical Reflection: 54
     Helios' Gambit
     Geb's Gambit // 3
     Detective's Purification
+    // Stack: ..., id
+    Gemini Decomposition
+    { // Inner stack: String
+        Contemplation
+        Patience // ID - Index 1
+        Jester's Gambit
+        Locator's Distillation
+        Gemini Decomposition
+        Numerical Reflection: -1
+        Equality Distillation
+        Contemplation
+        Bookkeeper's Gambit: v
+        Helios' Gambit
+    }
+    Numerical Reflection: 1
+    Rotation Gambit
+    Scrivener's Purification
+    Surgeon's Exaltation
     Contemplation
-    <minecraft:air>
-    Inequality Distillation
+    <[Various strings considered transparent]>
+    Nehmetawy's Gambit
+    Length Purification
+    Numerical Reflection: 0
+    Equality Distillation // No matches
+    // Stack: ..., id, string match
+    Jester's Gambit
+    Contemplation
+    <[Various ids considered transparent]>
+    Jester's Gambit
+    Locator's Distillation
+    Numerical Reflection: -1
+    Equality Distillation
+    // Stack: ..., string match, id match
+    Conjunction Distillation
     { // Stack: ..., [Longs], BitL
         Undertaker's Gambit
         Jester's Gambit
