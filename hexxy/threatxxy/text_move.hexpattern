@@ -1,0 +1,31 @@
+Contemplation
+<Threatxxy>
+// Stack: Player, Threatxxy
+Compass' Purification
+Undertaker's Gambit
+Jester's Gambit
+Compass' Purification
+// Stack: Threatxxy Pos, Threatxxy Pos, Player Eyes
+Jester's Gambit
+Subtractive Distillation
+Norm Purification
+Polar Decomposition
+Bookkeeper's Gambit: v-
+Yaw Purification
+// Stack: Threatxxy Pos, Facing Dir
+{ // Inner stack: Threatxxy Pos, Facing Dir, Speck
+    Undertaker's Gambit
+    Jester's Gambit
+    Rotate Speck
+    Jester's Gambit
+    Vector Reflectin: (0, 0.75, 0)
+    Vector Reflectin: (0, 0.25, 0)
+    Soroban Reflection
+    Multiplicative Distillation
+    Additive Distillation
+    Additive Distillation
+    Move Speck
+}
+Contemplation
+<[Text]>
+Thoth's Gambit
