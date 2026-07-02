@@ -1,0 +1,20 @@
+// Add to front:
+
+// Stack: Mat, Vec
+Transformation Purification
+Jester's Gambit
+Sprawling Distillation
+// Stack: Mat
+
+// ----------------------------
+
+// Pull from front:
+// Stack: Mat
+Numerical Reflection: 1
+Mitosis Gambit
+Jester's Gambit
+Restoration Purification
+// Stack: Mat, First vec
+// Mat may be left with 0 columns. That's fine.
+
+// ----------------------------
