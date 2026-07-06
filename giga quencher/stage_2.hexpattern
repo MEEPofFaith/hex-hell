@@ -1,40 +1,5 @@
-// Cleric impetus faces upwards
-Stocktake Reflection // Failsafe: Mishap if not bound. Bind nexus currently fails silently iirc.
-Bookkeeper's Gambit: v
-Waystone Reflection
-Vector Reflection: (0, 3, 0)
-Additive Distillation
-Chronicler's Purification // Motes: [Quenched, Quenched Shard, Block, Shard]
-Flock's Disintegration
-Waystone Reflection
-Vector Reflection +Y
-Vector Reflection -X
-Additive Distillation
-Additive Distillation
-Huginn's Gambit
-Contemplation
-<Allay Type>
-Muninn's Reflection
-Numerical Reflection: 1
-Zone Exaltation: Type
-{
-    Greater Breed
-}
-Jester's Gambit
-Nehmetawy's Gambit // First loop: GBreed All
-Bookkeeper's Gambit: v
-Contemplation
-<Allay Type>
-Muninn's Reflection
-Numerical Reflection: 1
-Zone Exaltation: Type
-{ // Inner stack: Quenched, Quenched Shard, Block, Shard, Allay
-    Sekhmet' Gambit //2
-    Use Item On
-}
-Jester's Gambit
-Thoth's Gambit // Second loop: Dupe All
-Bookkeeper's Gambit: v
+// Quenching moved to second part.
+// Need some time delay so that the allays start dancing.
 Contemplation
 <Allay Type>
 Muninn's Reflection
