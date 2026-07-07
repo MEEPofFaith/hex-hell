@@ -12,6 +12,7 @@ Vector Reflection -X
 Additive Distillation
 Additive Distillation
 Huginn's Gambit
+// First loop: GBreed All
 Contemplation
 <Allay Type>
 Muninn's Reflection
@@ -21,17 +22,16 @@ Zone Exaltation: Type
     Greater Breed
 }
 Jester's Gambit
-Nehmetawy's Gambit // First loop: GBreed All
+Nehmetawy's Gambit
 Bookkeeper's Gambit: v
-Contemplation
-<Allay Type>
+// Suck the dust dropped from gbreed into the impetus. Minor refund of media.
 Muninn's Reflection
 Numerical Reflection: 1
-Zone Exaltation: Type
-{ // Inner stack: Quenched, Quenched Shard, Block, Shard, Allay
-    Sekhmet' Gambit //2
-    Use Item On
+Zone Distillation: Item
+{
+    Waystone Reflection
+    Hopper
 }
 Jester's Gambit
-Thoth's Gambit // Second loop: Dupe All
+Nehmetawy's Gambit
 Bookkeeper's Gambit: v

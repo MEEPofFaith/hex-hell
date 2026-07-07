@@ -1,5 +1,20 @@
-// Quenching moved to second part.
+// Duping moved to second part.
 // Allay needs a 20 tick delay before it starts dancing.
+
+// Second loop: Dupe All
+Contemplation
+<Allay Type>
+Muninn's Reflection
+Numerical Reflection: 1
+Zone Exaltation: Type
+{ // Inner stack: Quenched, Quenched Shard, Block, Shard, Allay
+    Sekhmet' Gambit //2
+    Use Item On
+}
+Jester's Gambit
+Thoth's Gambit
+Bookkeeper's Gambit: v
+// Third loop: Flay all and dispose of extras
 Contemplation
 <Allay Type>
 Muninn's Reflection
@@ -75,7 +90,7 @@ Zone Exaltation: Type
     Sekhmet' Gambit // 0
 }
 Jester's Gambit
-Djehuty's Gambit // Third loop: Flay all and dispose of extras
+Djehuty's Gambit
 Bookkeeper's Gambit: v
 // Typical operation: 24 * 2 * 2 allays = 96
 // 96 blocks * 4 = 384 shards
@@ -125,16 +140,16 @@ Retention Gambit: Maximus II
     Length Purification
     Decrementation Purification
     Minimum Distillation
-    Muninn's Reflection
+    Waystone Reflection
     // Stack: Quenched Shard, Amount, Pos
     Jester's Gambit
-    Return Item // I know this is just above the lava, however this means it'll mix with the dust from gbreed.
+    Return Item
 }
 Contemplation
 Bookkeeper's Gambit: vvv
 Augur's Exaltation
 Hermes' Gambit
-Muninn's Reflection
+Waystone Reflection
 Numerical Reflection: 1
 Zone Distillation: Item
 {
