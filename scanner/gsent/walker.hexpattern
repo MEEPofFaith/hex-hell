@@ -6,137 +6,111 @@ Jester's Gambit
 Numerical Reflection: 8 // The datum list of the 18x18x18 cube will overrun stack size limit when stored in a jump. Shrink down to smaller volumes.
 Division Distillation
 Ceiling Purification
-Numerical Reflection: 1
-Subtractive Distillation
-Vector Disintegration
-// Stack: Op, Origin, Max, bx, by, bz
-Numerical Reflection: -1
-Nullary Reflection
-Ranger's Exaltation
+// Stack: Op, Origin, Max, Bounds
+Vector Reflection Zero
 {
-    // Stack: Op, Origin, Max, bx, by, z
+    // Stack: Op, Origin, Max, Offset
+    Numerical Reflection: 8
+    Multiplicative Distillation
+    Numerical Reflection: 3
+    Additive Distillation
+    // Stack: Op, Origin, Max, Offset
+    Numerical Reflection: 2
+    Fisherman's Gambit II
+    Additive Distillation
+    // Stack: Op, Origin, Max, Target pos
+    // Walk sent
+    Gemini Decomposition
+    Locate Sentinel
+    // Stack: Op, Origin, Max, Target, Target, Sent
+    Subtractive Distillation
+    // Stack: Op, Origin, Max, Target, Offset
+    Gemini Decomposition
+    Length Purification
+    Numerical Reflection: 16
+    Division Distillation
+    Ceiling Purification
+    Undertaker's Gambit
+    Division Distillation
+    // Stack: Op, Origin, Max, Target, Count, Offset
     Jester's Gambit
-    Numerical Reflection: -1
-    Nullary Reflection
-    Ranger's Exaltation
     {
-        // Stack: Op, Origin, Max, bx, z, y
-        Rotation Gambit
-        Numerical Reflection: -1
-        Nullary Reflection
-        Ranger's Exaltation
-        {
-            // Stack: Op, Origin, Max, z, y, x
-            Reflecting Gambit
-            Vector Exaltation
-            Numerical Reflection: 8
-            Multiplicative Distillation
-            Numerical Reflection: 3
-            Additive Distillation
-            // Stack: Op, Origin, Max, Offset
-            Numerical Reflection: 2
-            Fisherman's Gambit II
-            Additive Distillation
-            // Stack: Op, Origin, Max, Target pos
-            // Walk sent
-            Gemini Decomposition
-            Locate Sentinel
-            // Stack: Op, Origin, Max, Target, Target, Sent
-            Subtractive Distillation
-            // Stack: Op, Origin, Max, Target, Offset
-            Gemini Decomposition
-            Length Purification
-            Numerical Reflection: 16
-            Division Distillation
-            Ceiling Purification
-            Undertaker's Gambit
-            Division Distillation
-            // Stack: Op, Origin, Max, Target, Count, Offset
-            Jester's Gambit
+        Locate Sentinel
+        Additive Distillation
+        Summon Greater Sentinel
+    }
+    Kitkat's Gambit
+    Bookkeeper's Gambit: v
+    // Stack: Op, Origin, Max, Target
+    { // Inner stack: Op, Origin, Pos
+        Thanatos' Reflection
+        Numerical Reflection: 50000 // Can be adjusted to set max ops/tick limit. Lower value means people suffer more.
+        Minimus Distillation II
+        { // Low on ops, enqueue
             {
-                Locate Sentinel
-                Additive Distillation
-                Summon Greater Sentinel
-            }
-            Kitkat's Gambit
-            Bookkeeper's Gambit: v
-            // Stack: Op, Origin, Max, Target
-            { // Inner stack: Op, Origin, Pos
-                Thanatos' Reflection
-                Numerical Reflection: 50000 // Can be adjusted to set max ops/tick limit. Lower value means people suffer more.
-                Minimus Distillation II
-                { // Low on ops, enqueue
-                    {
-                        Flock's Reflection
-                        Flock's Gambit
-                        Bubbles' Purification
-                        Single's Purification
-                        {
-                            Flock's Disintegration
-                            Hermes' Gambit
-                        }
-                        Additive Distillation
-                        Numerical Reflection: 1
-                        Enqueue
-                        Bookkeeper's Gambit: v
-                        Hallucinate Click // Some feedback to me so I know its working.
-                        Janus' Gambit
-                    }
-                    Iris' Gambit
-                }
-                Helios' Gambit
-                // Stack: Op, Origin, Pos
-                Prospector's Gambit
-                Retrieve Idea
-                Flock's Disintegration
-                // Stack: Op, Origin, Pos, ...
                 Flock's Reflection
-                Decrementation Purification
-                Fisherman's Gambit
-                Hermes' Gambit
-                // Stack: Origin, ...
-                Flock's Reflection
-                Decrementation Purification
                 Flock's Gambit
-                Inscribe Idea
+                Bubbles' Purification
+                Single's Purification
+                {
+                    Flock's Disintegration
+                    Hermes' Gambit
+                }
+                Additive Distillation
+                Numerical Reflection: 1
+                Enqueue
+                Bookkeeper's Gambit: v
+                Hallucinate Click // Some feedback to me so I know its working.
+                Janus' Gambit
             }
-            Rotation Gambit II
-            // Stack: Op, Origin, [CubicOp], Max, Target
-            Numerical Reflection: 3.5
-            Dioscuri Gambit
-            Subtractive Distillation
-            Rotation Gambit II
-            Additive Distillation
-            // Stack: Op, Origin, [CubicOp], Max, MinCorner, MaxCorner
-            Vector Disintegration
-            Numerical Reflection: 3
-            Flock's Gambit
-            Rotation Gambit
-            Vector Disintegration
-            Numerical Reflection: 3
-            Flock's Gambit
-            Division Distillation
-            {
-                Flock's Disintegration
-                Minimum Distillation
-            }
-            Jester's Gambit
-            Nehmetawy's Gambit
-            Flock's Disintegration
-            Vector Exaltation
-            Rubik's Gambit
-            Sekhmet' Gambit // 0
+            Iris' Gambit
         }
-        Jester's Gambit
-        Thoth's Gambit
-        Sekhmet' Gambit // 0
+        Helios' Gambit
+        // Stack: Op, Origin, Pos
+        Prospector's Gambit
+        Retrieve Idea
+        Flock's Disintegration
+        // Stack: Op, Origin, Pos, ...
+        Flock's Reflection
+        Decrementation Purification
+        Fisherman's Gambit
+        Hermes' Gambit
+        // Stack: Origin, ...
+        Flock's Reflection
+        Decrementation Purification
+        Flock's Gambit
+        Inscribe Idea
+    }
+    Rotation Gambit II
+    // Stack: Op, Origin, [CubicOp], Max, Target
+    Numerical Reflection: 3.5
+    Dioscuri Gambit
+    Subtractive Distillation
+    Rotation Gambit II
+    Additive Distillation
+    // Stack: Op, Origin, [CubicOp], Max, MinCorner, MaxCorner
+    Vector Disintegration
+    Numerical Reflection: 3
+    Flock's Gambit
+    Rotation Gambit
+    Vector Disintegration
+    Numerical Reflection: 3
+    Flock's Gambit
+    Division Distillation
+    {
+        Flock's Disintegration
+        Minimum Distillation
     }
     Jester's Gambit
-    Thoth's Gambit
+    Nehmetawy's Gambit
+    Flock's Disintegration
+    Vector Exaltation
+    Rubik's Gambit
     Sekhmet' Gambit // 0
 }
-Jester's Gambit
-Thoth's Gambit
+Rotation Gambit II
+False Reflection
+Cubic Exaltation
 Contemplation
 <"Done">
 Send Thought
