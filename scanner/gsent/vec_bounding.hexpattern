@@ -1,0 +1,58 @@
+/// Elementwise (Messy) -------------------------------------------------------------------
+// Stack: Bounds, Corner
+Vector Disintegration
+// Stack: Max, Cx, Cy, Cz
+Geb's Gambit // 3
+Vector Disintegration
+// Stack: Cx, Cy, Cz, Mx, My, Mz
+Geb's Gambit // 3
+// Stack: Cx, Cy, Mx, My, Mz, Cz
+Minimum Distillation
+// Stack: Cx, Cy, Mx, My, z
+Numerical Reflection: 108 // EDCBA -> AECDB
+Swindler's Gambit
+// Stack: Cx, Mx, Cy, My
+Minimum Distillation
+// Stack: z, Cx, Mx, y
+Nut's Gambit // 3
+// Stack: y, z, Cx, Mx
+Minimum Distillation
+Rotation Gambit II
+// Stack: x, y, z
+Vector Exaltation
+// Stack: Bounded MaxCorner
+
+/// Using a matrix ------------------------------------------------------------------------
+// Stack: Bounds, Corner
+Numerical Reflection: 2
+Flock's Gambit
+Transformation Purification // Matrix: [[Cx, Cy, Cz], [Mx, My, Mz]]
+Retrograde Purification // [[Mx, Cx], [My, Cy], [Mz, Cz]]
+Restoration Purification II
+{
+    Flock's Disintegration
+    Minimum Distillation
+}
+Jester's Gambit
+Nehmetawy's Gambit
+Flock's Disintegration
+Vector Exaltation
+
+/// Same thing but assembled without using a matrix ---------------------------------------
+// Stack: Bounds, Corner
+Vector Disintegration
+Numerical Reflection: 3
+Flock's Gambit
+Jester's Gambit
+Vector Disintegration
+Numerical Reflection: 3
+Flock's Gambit
+Division Distillation
+{
+    Flock's Disintegration
+    Minimum Distillation
+}
+Jester's Gambit
+Nehmetawy's Gambit
+Flock's Disintegration
+Vector Exaltation

@@ -1,44 +1,47 @@
 // Made to not require surgeoning the op in, allowing for this to be optimized by my hex compiler.
 // Stack: Op, Origin, Bounds
+Dioscuri Gambit
+Additive Distillation
+Jester's Gambit
 Numerical Reflection: 18
 Division Distillation
 Ceiling Purification
 Numerical Reflection: 1
 Subtractive Distillation
 Vector Disintegration
-// Stack: Op, Origin, bx, by, bz
+// Stack: Op, Origin, Max, bx, by, bz
 Numerical Reflection: -1
 Nullary Reflection
 Ranger's Exaltation
 {
-    // Stack: Op, Origin, bx, by, z
+    // Stack: Op, Origin, Max, bx, by, z
     Jester's Gambit
     Numerical Reflection: -1
     Nullary Reflection
     Ranger's Exaltation
     {
-        // Stack: Op, Origin, bx, z, y
+        // Stack: Op, Origin, Max, bx, z, y
         Rotation Gambit
         Numerical Reflection: -1
         Nullary Reflection
         Ranger's Exaltation
         {
-            // Stack: Op, Origin, z, y, x
+            // Stack: Op, Origin, Max, z, y, x
             Reflecting Gambit
             Vector Exaltation
             Numerical Reflection: 18
             Multiplicative Distillation
             Numerical Reflection: 9
             Additive Distillation
-            // Stack: Op, Origin, Offset
-            Undertaker's Gambit
-            Jester's Gambit
+            // Stack: Op, Origin, Max, Offset
+            Numerical Reflection: 2
+            Fisherman's Gambit II
             Additive Distillation
-            // Stack: Op, Origin, Target pos
+            // Stack: Op, Origin, Max, Target pos
             // Walk sent
             Gemini Decomposition
             Locate Sentinel
-            // Stack: Op, Origin, Target, Target, Sent
+            // Stack: Op, Origin, Max, Target, Target, Sent
             Subtractive Distillation
             Gemini Decomposition
             Numerical Reflection: 16
@@ -46,7 +49,7 @@ Ranger's Exaltation
             Ceiling Purification
             Undertaker's Gambit
             Division Distillation
-            // Stack: Op, Origin, Target, Count, Offset
+            // Stack: Op, Origin, Max, Target, Count, Offset
             Jester's Gambit
             {
                 Locate Sentinel
@@ -55,7 +58,7 @@ Ranger's Exaltation
             }
             Kitkat's Gambit
             Bookkeeper's Gambit: v
-            // Stack: Op, Origin, Target
+            // Stack: Op, Origin, Max, Target
             { // Inner stack: Op, Origin, Pos
                 Thanatos' Reflection
                 Numerical Reflection: 50000 // Can be adjusted to set max ops/tick limit. Lower value means people suffer more.
@@ -93,21 +96,45 @@ Ranger's Exaltation
                 Flock's Gambit
                 Inscribe Idea
             }
-            Jester's Gambit
+            Rotation Gambit II
+            // Stack: Op, Origin, [CubicOp], Max, Target
             Numerical Reflection: 8.5
             Dioscuri Gambit
             Subtractive Distillation
             Rotation Gambit II
             Additive Distillation
+            // Stack: Op, Origin, [CubicOp], Max, MinCorner, MaxCorner
+            Vector Disintegration
+            Numerical Reflection: 3
+            Flock's Gambit
+            Rotation Gambit II
+            Vector Disintegration
+            Numerical Reflection: 3
+            Flock's Gambit
+            Division Distillation
+            {
+                Flock's Disintegration
+                Minimum Distillation
+            }
+            Jester's Gambit
+            Nehmetawy's Gambit
+            Flock's Disintegration
+            Vector Exaltation
             False Reflection
             Cubic Exaltation
-            Bookkeeper's Gambit: v
+            Sekhmet' Gambit // 0
         }
         Jester's Gambit
         Thoth's Gambit
+        Sekhmet' Gambit // 0
     }
     Jester's Gambit
     Thoth's Gambit
+    Sekhmet' Gambit // 0
 }
 Jester's Gambit
 Thoth's Gambit
+Contemplation
+<"Done">
+Send Thought
+Hallucinate Pling
