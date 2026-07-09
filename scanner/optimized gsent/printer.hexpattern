@@ -1,20 +1,11 @@
 // Stack: Origin, Bounds, [Mats]
-Rotation Gambit
+Numerical Reflection: 0
+Geb's Gambit // 3
 Floor Purification
 Numerical Reflection: 0.5
 Additive Distillation // Coerce origin to center of block
-Rotation Gambit II
-Numerical Reflection: 0
-Numerical Reflection: 2
-Flock's Gambit
-Numerical Reflection: 2
-Fisherman's Gambit II
-Jester's Gambit
-Inscribe Idea // Data: [[Mats], Shift]
-// Stack: Origin, Bounds
-Mind's Reflection
-Compass' Purification II
-Summon Greater Sentinel // GSent is needed. Spawn nearby.
+Geb's Gambit // 3
+// Stack: [Mats], 0, Origin, Bounds
 { // Stack: ..., Pos, [Mats], Shift
     Gemini Decomposition
     Numerical Reflection: 150 // 52 * 3
@@ -94,20 +85,21 @@ Summon Greater Sentinel // GSent is needed. Spawn nearby.
     Additive Distillation
 }
 Rotation Gambit II
-// Stack: Op, Origin, Bounds
-Numerical Reflection: 3
+// Stack: [Mats], Shift, [Op], Origin, Bounds
+Flock's Reflection
 Flock's Gambit
+Bubbles' Purification
+Single's Purification
 {
-    Contemplation
-    Bookkeeper's Gambit: -
+    Mind's Reflection
+    Compass' Purification II
+    Summon Greater Sentinel // GSent is needed. Spawn nearby.
     Flock's Disintegration
     Contemplation
-    <Walker>
+    <Optimized Walker>
     Hermes' Gambit
 }
-Numerical Reflection: 1
-Rotation Gambit
-Surgeon's Exaltation
+Additive Distillation
 Numerical Reflection: 1
 Contemplation
 <"Printer">
