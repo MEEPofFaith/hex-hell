@@ -17,7 +17,7 @@ Compass' Purification II
 Summon Greater Sentinel // GSent is needed. Spawn nearby.
 { // Stack: ..., Pos, [Mats], Shift
     Gemini Decomposition
-    Numerical Reflection: 150 // 52 * 3
+    Numerical Reflection: 150 // 50 * 3
     Maximus Distillation II
     {
         Bookkeeper's Gambit: v
