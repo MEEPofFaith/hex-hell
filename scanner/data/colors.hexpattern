@@ -1,0 +1,20 @@
+// RGB colors aquired from using pick color on the textures for each of the conjured solid colors.
+// https://github.com/Real-Luxof/Lapisworks/tree/main/src/main/resources/assets/lapisworks/textures/block/conjureable
+{
+    <(5, 5, 8)>        // Black
+    <(23, 20, 255)>    // Blue
+    <(121, 69, 33)>    // Brown
+    <(74, 157, 191)>   // Cyan
+    <(84, 84, 84)>     // Gray
+    <(73, 106, 24)>    // Green
+    <(141, 183, 241)>  // Light Blue
+    <(184, 184, 191)>  // Light Gray
+    <(129, 209, 28)>   // Lime
+    <(201, 104, 195)>  // Magenta
+    <(216, 137, 41)>   // Orange
+    <(244, 178, 211)>  // Pink
+    <(83, 44, 148)>    // Purple
+    <(255, 25, 25)>    // Red
+    <(252, 252, 252)>  // White
+    <(228, 228, 41)>   // Yellow
+}

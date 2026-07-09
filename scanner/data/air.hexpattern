@@ -1,0 +1,27 @@
+// Substrings considered air
+{
+    <"glass">
+    <"window">
+    <"amethyst_bud">
+    <"sign">
+    <"button">
+    <"candle">
+    <"trapdoor">
+    <"bush">
+    <"torch">
+    <"slice">
+    <"fence">
+    <"carpet">
+    <"door">
+    <"pressure_plate">
+    <"blahaj:">
+    <"shaft">
+    <"cog">
+}
+
+// Exaact IDs considered air
+{
+    <minecraft:air>
+    <create:copycat_panel>
+    <minecraft:chain>
+}
