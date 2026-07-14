@@ -84,35 +84,35 @@ Hermes' Gambit
     Detective's Purification
     // Stack: ..., id
     Gemini Decomposition
-    { // Inner stack: String
-        Contemplation
-        Patience // ID - Index 1
-        Jester's Gambit
-        Locator's Distillation
-        Gemini Decomposition
-        Incrementation Purification // -1 -> 0, thus not found is false
-        Acheron's Gambit
-        Bookkeeper's Gambit: v
-    }
-    Numerical Reflection: 1
-    Rotation Gambit
-    Scrivener's Purification
-    Surgeon's Exaltation
     Contemplation
-    <[Various strings considered transparent]>
-    Nehmetawy's Gambit
-    Speaker's Decomposition
-    Bookkeeper's Gambit: v-
-    Nullary Reflection
+    <[Various ids considered transparent]>
+    Jester's Gambit
+    Locator's Distillation
+    Numerical Reflection: -1
     Equality Distillation
-    { // String match is null. Attempt ID match.
+    { // ID is not air. Attempt string match.
         Gemini Decomposition
+        { // Inner stack: String
+            Contemplation
+            Patience // ID - Index 1
+            Jester's Gambit
+            Locator's Distillation
+            Gemini Decomposition
+            Incrementation Purification // -1 -> 0, thus not found is false
+            Acheron's Gambit
+            Bookkeeper's Gambit: v
+        }
+        Numerical Reflection: 1
+        Rotation Gambit
+        Scrivener's Purification
+        Surgeon's Exaltation
         Contemplation
-        <[Various ids considered transparent]>
-        Jester's Gambit
-        Locator's Distillation
-        Numerical Reflection: -1
-        Equality Distillation
+        <[Various strings considered transparent]>
+        Nehmetawy's Gambit
+        Speaker's Decomposition
+        Bookkeeper's Gambit: v-
+        Nullary Reflection
+        Inequality Distillation
     }
     Contemplation
     False Reflection
