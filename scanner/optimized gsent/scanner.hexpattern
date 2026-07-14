@@ -112,7 +112,7 @@ Hermes' Gambit
         Speaker's Decomposition
         Bookkeeper's Gambit: v-
         Nullary Reflection
-        Inequality Distillation
+        Equality Distillation
     }
     Contemplation
     False Reflection
@@ -151,7 +151,7 @@ Hermes' Gambit
         Jester's Gambit
         Ra's Gambit
         // Stack: ..., [[Vecs], Mat...], Index, Shift, cIn, min
-        Bookkeeper's Gambit: v-
+        Bookkeeper's Gambit: v
         Long Purification
         Long Reflection // 16
         Disjunction Distillation
