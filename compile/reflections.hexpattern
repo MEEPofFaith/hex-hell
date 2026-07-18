@@ -1,9 +1,10 @@
 {
-    <"numerical reflection">
-    <"vector reflection">
-    <"false reflection">
-    <"true reflection">
-    <"quaternionic rfln.">
+    <"Numerical Reflection">
+    <"Vector Reflection">
+    <"False Reflection">
+    <"True Reflection">
+    <"Quaternionic Rfln">
     <"hexcasting.special.complexhex:long">
-    <"nullary reflection">
+    <"Nullary Reflection">
+    <"Noob Num Reflection">
 }
