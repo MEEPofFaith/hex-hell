@@ -1,0 +1,29 @@
+// Patterns and their jumble equivalents. Place into a map or dict.
+// Jumbles are faster than regular patterns since they do not need to go through the pattern registry.
+
+Jester's Gambit
+<2 [1, 0]>
+
+Rotation Gambit
+<3 [1, 2, 0]>
+
+Rotation Gambit II
+<3 [2, 0, 1]>
+
+Gemini Decomposition
+<1 [0, 0]>
+
+Prospector's Gambit
+<2 [0, 1, 0]>
+
+Undertaker's Gambit
+<2 [1, 0, 1]>
+
+Dioscuri Gambit
+<2 [0, 1, 0, 1]>
+
+Bubbling Gambit
+<3 [1, 0, 2]>
+
+Reflecting Gambit
+<3 [2, 1, 0]>
