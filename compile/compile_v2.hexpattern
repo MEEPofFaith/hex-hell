@@ -77,7 +77,7 @@ Vacant Reflection
             Rotation Gambit II
             Equality Distillation
             {
-                // Stack: ..., Jump, [Hex], Pattern Op
+                // Stack: ..., Jump, [Hex], Pattern, Op
                 Reflecting Gambit
                 Speaker's Decomposition
                 // Stack: ..., Jump, Op, Pattern, [Hex], Last
