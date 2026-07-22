@@ -59,6 +59,61 @@ Vacant Reflection
         Augur's Exaltation
         Hermes' Gambit
 
+        // Check if number-based stack manip
+        Contemplation
+        <Dict of patterns to operations>
+        Entry Purification
+        {
+            Sekhmet' Gambit // 2
+            Flock's Disintegration
+            // Stack: Pattern, Key, Jumble
+            Rotation Gambit II
+            Equality Distillation
+            Acheron's Gambit
+            Bookkeeper's Gambit: v
+        }
+        Jester's Gambit
+        Thoth's Gambit
+        Gemini Decomposition
+        Augur's Purification
+        { // Matches one of the pattern->op patterns. Execute
+            // Stack: jump, [hex], pattern, [op]
+            Flock's Disintegration
+            Reflecting Gambit
+            Speaker's Decomposition
+            // Stack: jump, op, pattern, [hex], last
+            Gemini Decomposition
+            Classifier's Purification
+            Contemplation
+            <Number>
+            Equality Distillation
+            { // Last thing was a number. Run operation
+                Jester's Gambit
+                Speaker's Decomposition
+                // Stack: jump, op, pattern, #, [hex], consid
+                Bookkeeper's Gambit: v--v // Assume there's a consid before the number. After all, it was likely just processed by this compiler hex.
+                // Stack: jump, op, #, [hex]
+                Reflecting Gambit
+                Hermes' Gambit
+            }
+            { // Last thing wasn't a number. Just embed.
+                Speaker's Distillation
+                Jester's Gambit
+                Bookkeeper's Gambit: v--
+            }
+            Augur's Exaltation
+            Hermes' Gambit
+            // Stack: jump, [hex], ?
+            Speaker's Distillation
+            False Reflection
+            Reflecting Gambit
+            Hermes' Gambit
+        }
+        Contemplation
+        Bookkeeper's Gambit: v
+        Augur's Exaltation
+        Hermes' Gambit
+
         // Else, just insert
         Speaker's Distillation
         False Reflection
