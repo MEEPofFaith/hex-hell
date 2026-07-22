@@ -14,8 +14,8 @@ Vacant Reflection
     }
     {
         // Stack: [Hex], Iota, Jump
-        // Check if not a pattern
         Rotation Gambit II
+        // Check if not a pattern
         Gemini Decomposition
         Classifier's Purification
         Contemplation
@@ -24,6 +24,21 @@ Vacant Reflection
         { // Not a pattern. Immediately embed.
             Speaker's Distillation
             False Reflection
+            Reflecting Gambit
+            Hermes' Gambit
+        }
+        Helios' Gambit
+
+        // Check if contemplation. (Consid is weird and idk how I should handle it, so I'm going to not bother.)
+        Gemini Decomposition
+        Contemplation
+        Contemplation
+        Equality Distillation
+        {
+            Bookkeeper's Gambit: v
+            <{Consideration}>
+            Speaker's Distillation
+            True Reflection
             Reflecting Gambit
             Hermes' Gambit
         }
@@ -59,7 +74,7 @@ Vacant Reflection
         Augur's Exaltation
         Hermes' Gambit
 
-        // Check if number-based stack manip
+        // Check if number-based stack manip. Do this one last.
         Contemplation
         <Dict of patterns to operations>
         Entry Purification
@@ -114,7 +129,41 @@ Vacant Reflection
         Augur's Exaltation
         Hermes' Gambit
 
-        // Else, just insert
+        // Check for embeddable reflections
+        Gemini Decomposition
+        Patternmaster's Purification
+        Gemini Decomposition
+        Nullary Reflection
+        Inequality Distillation
+        {
+            // Stack: Jump, [Hex], Pattern, Name
+            {
+                Sekhmet' Gambit // 2
+                Locator's Distillation
+                Incrementation Purification
+                Gemini Decomposition
+                Contemplation
+                Bookkeeper's Gambit: v
+                Selene's Gambit
+            }
+            Contemplation
+            <[list of reflections]>
+            Thoth's Gambit
+            {
+                Hermes' Gambit // Execute the pattern to get its output
+                <{Consideration}>
+                Bubbling Gambit
+                Speaker's Distillation
+                Jester's Gambit
+            }
+            Helios' Gambit
+        }
+        Contemplation
+        Bookkeeper's Gambit: v
+        Augur's Exaltation
+        Hermes' Gambit
+
+        // Insert whatever is left
         Speaker's Distillation
         False Reflection
         Reflecting Gambit
