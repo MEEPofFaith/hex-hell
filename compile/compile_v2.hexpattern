@@ -1,0 +1,75 @@
+// Stack: [Hex]
+False Reflection
+Vacant Reflection
+{
+    Rotation Gambit
+    { // Last pattern was consid/contem. Directly embed.
+        // Stack: [Hex], Iota, Jump
+        Rotation Gambit II
+        Speaker's Distillation
+        False Reflection
+        // Stack: Jump, [Hex], False
+        Reflecting Gambit
+        Hermes' Gambit
+    }
+    {
+        // Stack: [Hex], Iota, Jump
+        // Check if not a pattern
+        Rotation Gambit II
+        Gemini Decomposition
+        Classifier's Purification
+        Contemplation
+        <Pattern>
+        Inequality Distillation
+        { // Not a pattern. Immediately embed.
+            Speaker's Distillation
+            False Reflection
+            Reflecting Gambit
+            Hermes' Gambit
+        }
+        Helios' Gambit
+
+        // Check if basic stack manip
+        Contemplation
+        <Dict of patterns to jumbles>
+        Entry Purification // Due to the nature of dicts/sets, they cannot account for the rotation of patterns. Equality distillation can.
+        {
+            Sekhmet' Gambit // 2
+            Flock's Disintegration
+            // Stack: Pattern, Key, Jumble
+            Rotation Gambit II
+            Equality Distillation
+            Acheron's Gambit
+            Bookkeeper's Gambit: v
+        }
+        Jester's Gambit
+        Thoth's Gambit
+        Gemini Decomposition
+        Augur's Purification
+        { // Matches one of the pattern->jumble patterns. Replace
+            Bookkeeper's Gambit: v-
+            Flock's Disintegration
+            Speaker's Distillation
+            False Reflection
+            Reflecting Gambit
+            Hermes' Gambit
+        }
+        Contemplation
+        Bookkeeper's Gambit: v
+        Augur's Exaltation
+        Hermes' Gambit
+
+        // Else, just insert
+        Speaker's Distillation
+        False Reflection
+        Reflecting Gambit
+        Hermes' Gambit
+    }
+    Augur's Exaltation
+    Iris' Gambit
+    // Stack: Bool, [Hex]
+}
+Geb's Gambit // 3
+Anubis' Gambit
+Retrograde Purification
+Bookkeeper's Gambit: v-
