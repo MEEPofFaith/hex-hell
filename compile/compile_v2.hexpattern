@@ -4,16 +4,16 @@ Vacant Reflection
 {
     Rotation Gambit
     { // Last pattern was consid/contem. Directly embed.
-        // Stack: [Hex], Iota, Jump
+        // Stack: ..., [Hex], Iota, Jump
         Rotation Gambit II
         Speaker's Distillation
         False Reflection
-        // Stack: Jump, [Hex], False
+        // Stack: ..., Jump, [Hex], False
         Reflecting Gambit
         Hermes' Gambit
     }
     {
-        // Stack: [Hex], Iota, Jump
+        // Stack: ..., [Hex], Iota, Jump
         Rotation Gambit II
         // Check if not a pattern
         Gemini Decomposition
@@ -30,118 +30,92 @@ Vacant Reflection
         Helios' Gambit
 
         // Check if escaping
+        {
+            Flock's Disintegration
+            // Stack: ..., Jump, [Hex], Pattern, Key, Op
+            Rotation Gambit II
+            Equality Distillation
+            { // Matches one of the pattern->op patterns. Execute
+                Hermes' Gambit
+                Reflecting Gambit // The op will output a bool.
+                Hermes' Gambit
+            }
+            Helios' Gambit
+            Sekhmet' Gambit // 0
+        }
         Contemplation
         <Dict of escaping patterns to op>
-        Entry Purification // Due to the nature of dicts/sets, they cannot account for the rotation of patterns. Equality distillation can.
-        {
-            Sekhmet' Gambit // 2
-            Flock's Disintegration
-            // Stack: Pattern, Key, Jumble
-            Rotation Gambit II
-            Equality Distillation
-            Acheron's Gambit
-            Bookkeeper's Gambit: v
-        }
-        Jester's Gambit
+        Entry Purification
         Thoth's Gambit
-        Gemini Decomposition
-        Augur's Purification
-        {
-            Bookkeeper's Gambit: v-
-            Flock's Disintegration
-            Hermes' Gambit
-            Reflecting Gambit // The op itself will return the bool
-            Hermes' Gambit
-        }
-        Contemplation
         Bookkeeper's Gambit: v
-        Augur's Exaltation
-        Hermes' Gambit
 
         // Check if basic stack manip
-        Contemplation
-        <Dict of patterns to jumbles>
-        Entry Purification
         {
-            Sekhmet' Gambit // 2
             Flock's Disintegration
-            // Stack: Pattern, Key, Jumble
+            // Stack: ..., Jump, [Hex], Pattern, Key, Jumble
             Rotation Gambit II
             Equality Distillation
-            Acheron's Gambit
-            Bookkeeper's Gambit: v
-        }
-        Jester's Gambit
-        Thoth's Gambit
-        Gemini Decomposition
-        Augur's Purification
-        { // Matches one of the pattern->jumble patterns. Replace
-            Bookkeeper's Gambit: v-
-            Flock's Disintegration
-            Speaker's Distillation
-            False Reflection
-            Reflecting Gambit
-            Hermes' Gambit
-        }
-        Contemplation
-        Bookkeeper's Gambit: v
-        Augur's Exaltation
-        Hermes' Gambit
-
-        // Check if number-based stack manip. Do this one last.
-        Contemplation
-        <Dict of patterns to operations>
-        Entry Purification
-        {
-            Sekhmet' Gambit // 2
-            Flock's Disintegration
-            // Stack: Pattern, Key, Jumble
-            Rotation Gambit II
-            Equality Distillation
-            Acheron's Gambit
-            Bookkeeper's Gambit: v
-        }
-        Jester's Gambit
-        Thoth's Gambit
-        Gemini Decomposition
-        Augur's Purification
-        { // Matches one of the pattern->op patterns. Execute
-            // Stack: jump, [hex], pattern, [op]
-            Flock's Disintegration
-            Reflecting Gambit
-            Speaker's Decomposition
-            // Stack: jump, op, pattern, [hex], last
-            Gemini Decomposition
-            Classifier's Purification
-            Contemplation
-            <Number>
-            Equality Distillation
-            { // Last thing was a number. Run operation
-                Jester's Gambit
-                Speaker's Decomposition
-                // Stack: jump, op, pattern, #, [hex], consid
-                Bookkeeper's Gambit: v--v // Assume there's a consid before the number. After all, it was likely just processed by this compiler hex.
-                // Stack: jump, op, #, [hex]
+            { // Matches one of the pattern->jumble patterns. Replace
+                Speaker's Distillation
+                False Reflection
                 Reflecting Gambit
                 Hermes' Gambit
             }
-            { // Last thing wasn't a number. Just embed.
-                Speaker's Distillation
-                Jester's Gambit
-                Bookkeeper's Gambit: v--
-            }
-            Augur's Exaltation
-            Hermes' Gambit
-            // Stack: jump, [hex], ?
-            Speaker's Distillation
-            False Reflection
-            Reflecting Gambit
-            Hermes' Gambit
+            Helios' Gambit
+            Sekhmet' Gambit // 0
         }
         Contemplation
+        <Dict of patterns to jumbles>
+        Entry Purification
+        Thoth's Gambit
         Bookkeeper's Gambit: v
-        Augur's Exaltation
-        Hermes' Gambit
+
+        // Check if number-based stack manip.
+        {
+            Flock's Disintegration
+            // Stack: ..., Jump, [Hex], Pattern, Key, Op
+            Rotation Gambit II
+            Equality Distillation
+            {
+                // Stack: ..., Jump, [Hex], Pattern Op
+                Reflecting Gambit
+                Speaker's Decomposition
+                // Stack: ..., Jump, Op, Pattern, [Hex], Last
+                Gemini Decomposition
+                Classifier's Purification
+                Contemplation
+                <Number>
+                Equality Distillation
+                { // Last thing was a number. Run op.
+                    Jester's Gambit
+                    Speaker's Decomposition
+                    // Stack: ..., Jump, Op, Pattern, #, [Hex], Consid
+                    Bookkeeper's Gambit: v--v // Assume there's a consid before the number. After all, it was likely just processed by this compiler hex.
+                    // Stack: ..., Jump, Op, #, [Hex]
+                    Reflecting Gambit
+                    Hermes' Gambit
+                }
+                { // Last thing wasn't a number. Just embed.
+                    Speaker's Distillation
+                    Jester's Gambit
+                    Bookkeeper's Gambit: v--
+                }
+                Augur's Exaltation
+                Hermes' Gambit
+                // Stack: jump, [hex], ?
+                Speaker's Distillation
+                False Reflection
+                Reflecting Gambit
+                Hermes' Gambit
+            }
+            Helios' Gambit
+            Sekhmet' Gambit // 0
+        }
+        Contemplation
+        <Dict of patterns to operations>
+        Entry Purification
+        Thoth's Gambit
+        Bookkeeper's Gambit: v
 
         // Name-based checks
         Gemini Decomposition    
@@ -150,9 +124,6 @@ Vacant Reflection
         Inequality Distillation
         { // Stack: Jump, [Hex], Pattern, Name
             // Check for special patterns
-            Contemplation
-            <Dict of special pattern names>
-            Entry Purification
             {
                 Flock's Disintegration
                 // Stack: Jump, [Hex], Pattern, Full Name, Handler name, Op
@@ -177,33 +148,31 @@ Vacant Reflection
                 Helios' Gambit
                 Sekhmet' Gambit // 0
             }
-            Jester's Gambit
+            Contemplation
+            <Dict of special pattern names>
+            Entry Purification
             Thoth's Gambit
             Bookkeeper's Gambit: v
 
             // Check for constant reflections.
             {
-                Sekhmet' Gambit // 2
+                // Stack: Jump, [Hex], Pattern, Full Name, Refl Name
                 Locator's Distillation
-                Incrementation Purification
-                Gemini Decomposition
-                Contemplation
-                Bookkeeper's Gambit: v
-                Selene's Gambit
+                Incrementation Purification // -1 is not found. Increment to 0 to count as false.
+                {
+                    Hermes' Gambit
+                    Speaker's Distillation
+                    False Reflection
+                    Reflecting Gambit
+                    Hermes' Gambit
+                }
+                Helios' Gambit
+                Sekhmet' Gambit // 0
             }
             Contemplation
             <[list of reflections]>
             Thoth's Gambit
-            Bookkeeper's Gambit: v-
-            {
-                Hermes' Gambit // Execute the pattern to get its output
-                <{Consideration}>
-                Bubbling Gambit
-                Speaker's Distillation
-                Jester's Gambit
-                // Is the last check. Just let the finale handle this insertion.
-            }
-            Helios' Gambit
+            Bookkeeper's Gambit: vv
         }
         Contemplation
         Bookkeeper's Gambit: v
