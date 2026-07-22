@@ -29,25 +29,39 @@ Vacant Reflection
         }
         Helios' Gambit
 
-        // Check if contemplation. (Consid is weird and idk how I should handle it, so I'm going to not bother.)
-        Gemini Decomposition
+        // Check if escaping
         Contemplation
-        Contemplation
-        Equality Distillation
+        <Dict of escaping patterns to op>
+        Entry Purification // Due to the nature of dicts/sets, they cannot account for the rotation of patterns. Equality distillation can.
         {
+            Sekhmet' Gambit // 2
+            Flock's Disintegration
+            // Stack: Pattern, Key, Jumble
+            Rotation Gambit II
+            Equality Distillation
+            Acheron's Gambit
             Bookkeeper's Gambit: v
-            <{Consideration}>
-            Speaker's Distillation
-            True Reflection
-            Reflecting Gambit
+        }
+        Jester's Gambit
+        Thoth's Gambit
+        Gemini Decomposition
+        Augur's Purification
+        {
+            Bookkeeper's Gambit: v-
+            Flock's Disintegration
+            Hermes' Gambit
+            Reflecting Gambit // The op itself will return the bool
             Hermes' Gambit
         }
-        Helios' Gambit
+        Contemplation
+        Bookkeeper's Gambit: v
+        Augur's Exaltation
+        Hermes' Gambit
 
         // Check if basic stack manip
         Contemplation
         <Dict of patterns to jumbles>
-        Entry Purification // Due to the nature of dicts/sets, they cannot account for the rotation of patterns. Equality distillation can.
+        Entry Purification
         {
             Sekhmet' Gambit // 2
             Flock's Disintegration
@@ -129,7 +143,7 @@ Vacant Reflection
         Augur's Exaltation
         Hermes' Gambit
 
-        // Check for embeddable reflections
+        // Check for constant reflections
         Gemini Decomposition
         Patternmaster's Purification
         Gemini Decomposition
