@@ -6,14 +6,6 @@ Vacant Reflection
     { // Last pattern was consid/contem. Bubble if necessary, then directly embed.
         // Stack: ..., [Hex], Iota, Jump
         Rotation Gambit II
-        Contemplation
-        <[Intro, Retro]> // Things that shouldn't be bubbled.
-        Prospector's Gambit
-        Locator's Distillation
-        Incrementation Purification // -1 -> 0 to be false if not found.
-        Contemplation // Does not match with anything in the exclusion list
-        Bubbles' Purification
-        Selene's Gambit
         Speaker's Distillation
         False Reflection
         // Stack: ..., Jump, [Hex], False
