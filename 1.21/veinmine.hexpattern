@@ -1,19 +1,8 @@
-{
-    Mind's Reflection
-    Compass' Purification
-    Mind's Reflection
-    Alidade's Purification
-    Archer's Distillation
-    Gemini Decomposition
-    Nullary Reflection
-    Inequality Distillation // If not null, execute the jump to continue.
-    Jester's Gambit
-    Vacant Reflection
-    Augur's Exaltation
-    Hermes' Gambit
-}
-Iris' Gambit
-
+Mind's Reflection
+Compass' Purification
+Mind's Reflection
+Alidade's Purification
+Archer's Distillation
 Single's Purification
 {
     Contemplation
@@ -30,7 +19,7 @@ Single's Purification
     <List of offsets>
     {
         Prospector's Gambit
-        Additive Distillation
+        Additive Distillation // Will mishap if the pos is null. That's fine, good marker to stop.
         Undertaker's Gambit
         Surveyor's Distillation
         Vacant Reflection
