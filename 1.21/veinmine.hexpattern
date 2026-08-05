@@ -1,0 +1,54 @@
+{
+    Mind's Reflection
+    Compass' Purification
+    Mind's Reflection
+    Alidade's Purification
+    Archer's Distillation
+    Gemini Decomposition
+    Nullary Reflection
+    Inequality Distillation // If not null, execute the jump to continue.
+    Jester's Gambit
+    Vacant Reflection
+    Augur's Exaltation
+    Hermes' Gambit
+}
+Iris' Gambit
+
+Single's Purification
+{
+    Contemplation
+    Bookkeeper's Gambit: - // Placeholder
+    Numerical Reflection: 1
+    Prospector's Gambit
+    Surgeon's Exaltation
+    // Run operation
+    // Stack: [vecs], [quine]
+    Jester's Gambit
+    Speaker's Decomposition
+    Gemini Decomposition
+    Contemplation
+    <List of offsets>
+    {
+        Prospector's Gambit
+        Additive Distillation
+        Undertaker's Gambit
+        Surveyor's Distillation
+        Vacant Reflection
+        Contemplation
+        Bookkeeper's Gambit: v
+        Augur's Exaltation
+        Hermes' Gambit
+    }
+    Thoth's Gambit: 1
+    // Stack: [quine], [vecs], pos, [next]
+    Bubbling Gambit // Or Jester, Rotation II
+    Additive Distillation
+    Uniqueness Purification
+    Rotation Gambit II
+    Break Block
+    Hermes' Gambit
+}
+Numerical Reflection: 1
+Prospector's Gambit
+Surgeon's Exaltation
+Hermes' Gambit
