@@ -1,3 +1,25 @@
+{
+    Mind's Reflection
+    Stadiometer's Purification
+    Contemplation
+    <1.8>
+    Mind's Reflection
+    Gulliver's Purification
+    Multiplicative Distillation
+    Equality Distillation
+    Jester's Gambit
+    { // If holding shift, tp items to me instead.
+        Contemplation
+        <Me Gate>
+        Gate's Closing
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    Consideration
+    Introspection // Cancel everything after this if the jump doesn't replace this
+}
+Iris' Gambit
+
 Mind's Reflection
 Compass' Purification
 Mind's Reflection
@@ -19,9 +41,12 @@ Single's Purification
     <List of offsets>
     {
         Prospector's Gambit
-        Additive Distillation // Will mishap if the pos is null. That's fine, good marker to stop.
+        Additive Distillation
         Undertaker's Gambit
-        Surveyor's Distillation
+        Sorter's Purification // Surveyor's doesn't exist yet
+        Jester's Gambit
+        Sorter's Purification
+        Equality Distillation
         Vacant Reflection
         Contemplation
         Bookkeeper's Gambit: v
@@ -34,7 +59,13 @@ Single's Purification
     Additive Distillation
     Uniqueness Purification
     Rotation Gambit II
+    Gemini Decomposition
     Break Block
+    Entity Purification: Item
+    Contemplation
+    <Me Gate>
+    Jester's Gambit
+    Gate's Opening
     Hermes' Gambit
 }
 Numerical Reflection: 1
