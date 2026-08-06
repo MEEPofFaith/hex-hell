@@ -1,0 +1,80 @@
+// Stack: Corner1, Corner2, [hex]
+Rotation Gambit II
+Vector Disintegration
+Numerical Reflection: 3
+Fisherman's Gambit
+Vector Disintegration
+// Stack: [hex], x2, y2, z2, x1, y1, z1
+Numerical Reflection: 373 // FEDCBA -> CFBEAD
+Swindler's Gambit
+// Stack: [hex], x1, x2, y1, y2, z1, z2
+Numerical Reflection: 2
+Flock's Gambit
+// Stack: [hex], x1, x2, y1, y2, [z1, z2]
+Numerical Reflection: -4
+Fisherman's Gambit
+Numerical Reflection: 2
+Flock's Gambit
+// Stack: [hex], [z1, z2], x1, x2, [y1, y2]
+Rotation Gambit II
+Numerical Reflection: 2
+Flock's Gambit
+Numerical Reflection: 3
+Flock's Gambit
+// Stack: [hex], [[z1, z2], [y1, y2], [x1, x2]]
+{
+    Flock's Disintegration
+    // Inner stack: c1, c2
+    Dioscuri Gambit
+    Maximus Distillation
+    Contemplation
+    Jester's Gambit
+    Vacant Reflection
+    Augur's Exaltation
+    Hermes' Gambit // Always go from lower to higher
+    Prospector's Gambit
+    Subtractive Distillation
+    Floor Purification
+    // Stack: c1, dist
+    Vacant Reflection
+    {
+        Hermes' Gambit
+        Gemini Decomposition
+        Numerical Reflection: 1
+        Additive Distillation
+    }
+    Rotation Gambit
+    Gemini Gambit
+    Hermes' Gambit
+    Flock's Reflection
+    Flock's Gambit
+}
+Thoth's Gambit: 0
+Flock's Disintegration
+// Stack: [hex], [z1...z2], [y1...y2], [x1...x2]
+{
+    // Stack: [z1...z2], [y1...y2], x
+    Rotation Gambit II
+    {
+        // Stack: x, [z1...z2], y
+        Jester's Gambit
+        {
+            // Stack: x, y, z
+            Vector Exaltation
+            Contemplation
+            Bookkeeper's Gambit: - // Index 6
+            Hermes' Gambit
+        }
+        Thoth's Gambit: 2
+        Bookkeeper's Gambit: v
+    }
+    Thoth's Gambit: 2
+    Bookkeeper's Gambit: v
+}
+// Stack: [hex], [z1...z2], [y1...y2], [x1...x2], [looper]
+Numerical Reflection: 6
+Numerical Reflection: 5
+Fisherman's Gambit
+Surgeon's Exaltation
+Thoth's Gambit: 2
+Bookkeeper's Gambit: v
