@@ -1,0 +1,87 @@
+// Stack: Corner1, Corner2, [hex]
+Rotation Gambit II
+{
+    // Stack: c1, c2
+    Muninn's Reflection
+    Rotation Gambit II
+    // Stack: raven, c1, c2
+    Prospector's Gambit
+    Subtractive Distillation
+    // Stack: raven, c1, dist
+    Gemini Decomposition
+    Axial Purification
+    Jester's Gambit
+    Length Purification
+    // Stack: raven, c1, sign, abs dist
+    Numerical Reflection: 2
+    Additive Distillation
+    Floor Purification
+    Single's Purification
+    // Stack: raven, c1, sign, [dist + 2]
+    Contemplation
+    Gemini Gambit
+    Thoth's Gambit: 1
+    // Stack: raven, c1, [dist+2 copies of sign]
+    Derivation Decomposition
+    // Stack: raven, c1, [dist+1 copies of sign], sign
+    Rotation Gambit
+    Jester's Gambit
+    // Stack: raven, [dist+1 copies of sign], c1, sign
+    Subtractive Distillation
+    Huginn's Gambit
+    {
+        // Inner stack: sign
+        Muninn's Reflection
+        Additive Distillation
+        Gemini Decomposition
+        Huginn's Gambit
+    }
+    Thoth's Gambit: 0
+    Jester's Gambit
+    // [c1..c2], raven
+    Huginn's Gambit
+}
+Rotation Gambit II
+// Stack: [hex], [list maker], Corner1, Corner2
+Vector Disintegration
+Numerical Reflection: 3
+Fisherman's Gambit
+Vector Disintegration
+// Stack: [hex], [list maker], x2, y2, z2, x1, y1, z1
+Numerical Reflection: 373 // FEDCBA -> CFBEAD
+Swindler's Gambit
+// Stack: [hex], [list maker], x1, x2, y1, y2, z1, z2
+Numerical Reflection: 6
+Fisherman's Gambit II
+Hermes' Gambit
+// Stack: [hex], [list maker], x1, x2, y1, y2, [z1..z2]
+Numerical Reflection: -4
+Fisherman's Gambit
+// Stack: [hex], [list maker], [z1..z2], x1, x2, y1, y2
+Numerical Reflection: 5
+Fisherman's Gambit II
+Hermes' Gambit
+// Stack: [hex], [list maker], [z1..z2], x1, x2, [y1..y2]
+Rotation Gambit II
+// Stack: [hex], [list maker], [z1..z2], [y1..y2], x1, x2
+Numerical Reflection: 4
+Fisherman's Gambit
+Hermes' Gambit
+// Stack: [hex], [z1..z2], [y1..y2], [x1..x2]
+{
+    // Stack: [hex], [z1..z2], [y1..y2], x
+    Rotation Gambit II
+    {
+        // Stack: [hex], x, y, [z1..z2]
+        Jester's Gambit
+        {
+            // Stack: [hex], x, y, z
+            Vector Exaltation
+            Jester's Gambit
+            Hermes' Gambit
+        }
+        Thoth's Gambit: 3
+    }
+    Thoth's Gambit: 3
+}
+Thoth's Gambit: 3
