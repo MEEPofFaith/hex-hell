@@ -1,0 +1,97 @@
+Mind's Reflection
+Compass' Purification II
+Summon Greater Sentinel
+{
+    Gemini Decomposition
+    Locate Sentinel
+    Subtractive Distillation
+    // Stack: Target, Offset
+    Gemini Decomposition
+    Length Purification
+    Numerical Reflection: 16
+    Division Distillation
+    Ceiling Purification
+    Undertaker's Gambit
+    Division Distillation
+    // Stack: Target, Count, Offset
+    Jester's Gambit
+    {
+        Locate Sentinel
+        Additive Distillation
+        Summon Greater Sentinel
+    }
+    Kitkat's Gambit
+    Bookkeeper's Gambit: v
+    // Stack: Target
+    Gemini Decomposition
+    Numerical Reflection: 7
+    Additive Distillation
+    Jester's Gambit
+    Numerical Reflection: 8
+    Subtractive Distillation
+    Numerical Reflection: 2
+    Flock's Gambit
+    Gemini Decomposition
+    Bookkeeper's Gambit: - // Index: 27
+    Hermes' Gambit
+    Spatial Interchange
+}
+Numerical Reflection: 27
+Spatial Reflection
+Contemplation
+<Noosphere>
+Undertaker's Gambit
+Inequality Distillation
+Jester's Gambit
+Bubbles' Purification
+{
+    Contemplation
+    <[overworld, nether, end]>
+    Locate Sentinel
+    Coordinate Purification: Y
+    Numerical Reflection: 0
+    Maximus Distillation
+    Numerical Reflection: 3
+    Entropy Purification
+    Floor Purification
+    Numerical Reflection: 0
+    Augur's Exaltation
+    Selection Distillation
+}
+Augur's Exaltation
+Bubbles' Purification
+Surgeon's Exaltation
+Mind's Reflection
+Compass' Purification II
+Mind's Reflection
+Alidade's Purification
+Polar Decomposition
+Bookkeeper's Gambit: v-
+Yaw Purification
+Numerical Reflection: 16
+Multiplicative Distillation
+Additive Distillation
+Numerical Reflection: 16
+Division Distillation
+Floor Purification
+Numerical Reflection: 16
+Multiplicative Distillation
+Numerical Reflection: 8.5
+Additive Distillation
+// Stack: Starting Pos
+Gemini Decomposition
+Spatial Reflection
+Atlas' Decomposition
+Bookkeeper's Gambit: v
+Numerical Reflection: 8.5
+Additive Distillation
+Coordinate Distillation: Y
+// Stack: Start Pos, End Pos
+Dioscuri Gambit
+Subtractive Distillation
+Length Purification
+Numerical Reflection: 16
+Division Distillation
+Numerical Reflection: 3
+Jester's Gambit
+Measuring Ruler's Gambit
