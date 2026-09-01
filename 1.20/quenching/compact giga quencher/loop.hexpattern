@@ -94,8 +94,8 @@ Bookkeeper's Gambit: v
     Jester's Gambit
 }
 
-// Delay times for the wave regulators. 2 + 3 + 3 + 2 = 10, which is the music check delay.
+// Delay times for the wave regulators. 2 + 9 + 9 + 2 = 20, which is the music check delay.
 Numerical Reflection: 0
 Bubbles' Purification
-Numerical Reflection: 3
+Numerical Reflection: 9
 Bubbles' Purification
