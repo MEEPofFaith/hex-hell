@@ -1,20 +1,7 @@
-// Created in a way that does not care about orientation.
-Waystone Reflection
-Lodestone Reflection
-Subtractive Distillation
-Chronicler's Gambit // Motes: [Quenched Block, Quenched Shard, Amethyst Block, Amethyst Shard]
-Flock's Disintegration
-
-Waystone Reflection
-Vector Reflection +Y
-Additive Distillation
-Bind Storage - Temporary
-
-Wave Location Rfln.
-Vector Reflection +Y
-Additive Distillation
-Contemplation
-Bookkeeper's Gambit: -
+{ // This will autofill in any part of the loop that uses Introjection/Retrojection
+    <Flat paste of the loop template>
+}
+// Move stuff to afterwards to minimize the impact of the retrojection bug.
 
 // Allay chamber pos. Create once, will be referenced inside the introjections.
 // Muninn's is never called during the actual looping.
@@ -27,7 +14,70 @@ Subtractive Distillation
 Subtractive Distillation
 Huginn's Gambit
 
-{ // This will autofill in any part of the loop that uses Introjection/Retrojection
-    <Flat paste of the loop template>
+{ // Due to the bug with HexThings making retrojection inflate op count, do some manual post-processing instead.
+    {
+        Prospector's Gambit
+        Contemplation
+        <Unique Pattern 1>
+        Equality Distillation
+        { // Allay Pos
+            Bookkeeper's Gambit: v-
+            Muninn's Reflection
+            Bubbles' Purification
+            Numerical Reflection: 1
+            Bubbles' Purification
+            Rotation Gambit
+            Hermes' Gambit
+        }
+        Helios' Gambit
+        Prospector's Gambit
+        Contemplation
+        <Unique Pattern 2>
+        Equality Distillation
+        { // Flaying Pos
+            Bookkeeper's Gambit: v-
+            Muninn's Reflection
+            Vector Reflection: (0, 2, 0)
+            Additive Distillation
+            Bubbles' Purification
+            Jester's Gambit
+            Hermes' Gambit
+        }
+        Helios' Gambit
+        Prospector's Gambit
+        Contemplation
+        Waystone Reflection
+        Equality Distillation
+        {
+            Bookkeeper's Gambit: v-
+            Waystone Reflection
+            Bubbles' Purification
+        }
+        Helios' Gambit
+        Jester's Gambit
+        Hermes' Gambit
+    }
+    Iris' Gambit
 }
+Jester's Gambit
+Nehmetawy's Gambit
+
+Wave Location Rfln.
+Vector Reflection +Y
+Additive Distillation
+Contemplation
+Bookkeeper's Gambit: -
+Bubbling Gambit
 Bind Macro
+
+// Created in a way that does not care about orientation.
+Waystone Reflection
+Lodestone Reflection
+Subtractive Distillation
+Chronicler's Purification// Motes: [Quenched Block, Quenched Shard, Amethyst Block, Amethyst Shard]
+Flock's Disintegration
+
+Waystone Reflection
+Vector Reflection +Y
+Additive Distillation
+Bind Storage - Temporary

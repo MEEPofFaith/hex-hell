@@ -14,12 +14,7 @@
     }
     Helios' Gambit
     Jester's Gambit
-    Introjection
-        Muninn's Reflection
-        Vector Reflection: (0, 2, 0)
-        Additive Distillation
-        Bubbles' Purification
-    Retrojection
+    <Unique Pattern 2>
     Gemini Decomposition
     Collect Block
     Undertaker's Gambit
@@ -27,30 +22,17 @@
     Flay Mind
 }
 <{Allay Type}>
-Introjection
-    Muninn's Reflection
-    Bubbles' Purification
-    Numerical Reflection: 1
-    Bubbles' Purification
-Retrojection
+<Unique Pattern 1>
 Zone Exaltation: Type
 Djehuty's Gambit
 Bookkeeper's Gambit: v
 
 // Succ
 {
-    Introjection
-        Waystone Reflection
-        Bubbles' Purification
-    Retrojection
+    Waystone Reflection
     Hopper
 }
-Introjection
-    Muninn's Reflection
-    Bubbles' Purification
-    Numerical Reflection: 1
-    Bubbles' Purification
-Retrojection
+<Unique Pattern 1>
 Zone Distillation: Item
 Nehmetawy's Gambit
 Bookkeeper's Gambit: v

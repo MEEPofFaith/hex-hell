@@ -10,29 +10,16 @@ Ma'at's Gambit
     Greater Breed
 }
 <{Allay Type}>
-Introjection
-    Muninn's Reflection
-    Bubbles' Purification
-    Numerical Reflection: 1
-    Bubbles' Purification
-Retrojection
+<Unique Pattern 1>
 Zone Exaltation: Type
 Nehmetawy's Gambit
 Bookkeeper's Gambit: v
 // Suck up the dropped dust for a minor refund
 {
-    Introjection
-        Waystone Reflection
-        Bubbles' Purification
-    Retrojection
+    Waystone Reflection
     Hopper
 }
-Introjection
-    Muninn's Reflection
-    Bubbles' Purification
-    Numerical Reflection: 1
-    Bubbles' Purification
-Retrojection
+<Unique Pattern 1>
 Zone Distillation: Item
 Nehmetawy's Gambit
 Bookkeeper's Gambit: v
@@ -46,12 +33,7 @@ Bookkeeper's Gambit: v
         Use Item On
     }
     <{Allay Type}>
-    Introjection
-        Muninn's Reflection
-        Bubbles' Purification
-        Numerical Reflection: 1
-        Bubbles' Purification
-    Retrojection
+    <Unique Pattern 1>
     Zone Exaltation: Type
     Thoth's Gambit
     Bookkeeper's Gambit: v
@@ -115,9 +97,8 @@ Bookkeeper's Gambit: v
     Jester's Gambit
 }
 
-Introjection // Delay times for the wave regulators. 2 + 3 + 3 + 2 = 10, which is the music check delay.
-    Numerical Reflection: 0
-    Bubbles' Purification
-    Numerical Reflection: 3
-    Bubbles' Purification
-Retrojection
+// Delay times for the wave regulators. 2 + 3 + 3 + 2 = 10, which is the music check delay.
+Numerical Reflection: 0
+Bubbles' Purification
+Numerical Reflection: 3
+Bubbles' Purification

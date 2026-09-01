@@ -43,12 +43,7 @@ Flock's Disintegration
     Helios' Gambit
     Rotation Gambit II
     // Stack: Allay, Amethyst Block, [Break]
-    Introjection
-        Muninn's Reflection
-        Vector Reflection: (0, 2, 0)
-        Additive Distillation
-        Bubbles' Purification
-    Retrojection
+    <Unique Pattern 2>
     Undertaker's Gambit
     Jester's Gambit
     Hermes' Gambit
@@ -57,12 +52,7 @@ Flock's Disintegration
     Flay Mind
 }
 <{Allay Type}>
-Introjection
-    Muninn's Reflection
-    Bubbles' Purification
-    Numerical Reflection: 1
-    Bubbles' Purification
-Retrojection
+<Unique Pattern 1>
 Zone Exaltation: Type
 Djehuty's Gambit
 Bookkeeper's Gambit: vv
@@ -75,12 +65,7 @@ Bookkeeper's Gambit: vv
     Jester's Gambit
     Mediafy Item
 }
-Introjection
-    Muninn's Reflection
-    Bubbles' Purification
-    Numerical Reflection: 1
-    Bubbles' Purification
-Retrojection
+<Unique Pattern 1>
 Zone Distillation: Item
 Nehmetawy's Gambit
 Bookkeeper's Gambit: vv
