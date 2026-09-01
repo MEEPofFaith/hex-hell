@@ -2,7 +2,7 @@
 
 // Stack: Quenched Block, Quenched Shard, Amethyst Block, Amethyst Shard
 {
-    // Inner Stack: Quenched Block, Quenched Shard, Amethyst Block, Amethyst Shard, Allay, Count
+    // Inner Stack: Quenched Block, Quenched Shard, Amethyst Block, Amethyst Shard, Allay, Index
     Bookkeeper's Gambit: vv-v--
     // Stack: Amethyst Block, Allay, Index
     Numerical Reflection: 24

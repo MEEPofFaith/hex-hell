@@ -21,7 +21,7 @@ Retrojection
 
 // Stack: Quenched Block, Quenched Shard, Amethyst Block, Amethyst Shard, [ShardOps, BlockOps]
 Numerical Reflection: 3
-Fisherman's Decomposition
+Fisherman's Gambit II
 Length Purification
 Numerical Reflection: 2048
 Maximus Distillation
@@ -31,7 +31,7 @@ Flock's Disintegration
 // Stack: Quenched Block, Quenched Shard, Amethyst Block, Amethyst Shard, [Collect], [Break]
 {
     // Inner Stack: Quenched Block, Quenched Shard, Amethyst Block, Amethyst Shard, [Collect], [Break], Allay, Index
-    Bookkeeper's Gambit: vv-v-v--
+    Bookkeeper's Gambit: vv-vv---
     // Stack: Amethyst Block, [Break], Allay, Index
     Numerical Reflection: 24
     Maximus Distillation II
@@ -68,5 +68,5 @@ Bookkeeper's Gambit: vv
 <Unique Pattern 2>
 Numerical Reflection: 1
 Zone Distillation: Item
-Nehmetawy's Gambit
+Thoth's Gambit
 Bookkeeper's Gambit: vv
