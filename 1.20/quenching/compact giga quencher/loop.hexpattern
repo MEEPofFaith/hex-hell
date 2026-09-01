@@ -39,17 +39,14 @@ Bookkeeper's Gambit: v
     Bookkeeper's Gambit: v
     
     // Second loop: Flay all the allays
-    Introjection
-        {
-            <Flat paste of filling template>
-        }
-        {
-            <Flat paste of storing template>
-        }
-        Numerical Reflection: 2
-        Flock's Gambit
-        Bubbles' Purification
-    Retrojection
+    {
+        <Flat paste of filling template>
+    }
+    {
+        <Flat paste of storing template>
+    }
+    Numerical Reflection: 2
+    Flock's Gambit
     Circle Media Rfln.
     Numerical Reflection: 40000 // Some cuttoff point
     Maximus Distillation
