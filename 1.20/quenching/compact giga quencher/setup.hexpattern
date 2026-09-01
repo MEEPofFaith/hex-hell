@@ -81,3 +81,16 @@ Waystone Reflection
 Vector Reflection +Y
 Additive Distillation
 Bind Storage - Temporary
+
+// Finisher. Updates the focal frame. Retrieved and executed when ending the circle.
+{
+    Waystone Reflection
+    Lodestone Reflection
+    Subtractive Distillation
+    Gemini Decomposition
+    Chronicler's Purification
+    Undertaker's Gambit
+    Chronicler's Gambit
+    Send Thought
+}
+Huginn's Gambit
