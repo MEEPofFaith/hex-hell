@@ -1,0 +1,123 @@
+// Failsafe
+Mind's Reflection
+Nullary Reflection
+Inequality Distillation
+<{"Bound Player is not Nearby!"}>
+Ma'at's Gambit
+
+// Start by gbreeding all the allyas
+{
+    Greater Breed
+}
+<{Allay Type}>
+Introjection
+    Muninn's Reflection
+    Bubbles' Purification
+    Numerical Reflection: 1
+    Bubbles' Purification
+Retrojection
+Zone Exaltation: Type
+Nehmetawy's Gambit
+Bookkeeper's Gambit: v
+// Suck up the dropped dust for a minor refund
+{
+    Introjection
+        Waystone Reflection
+        Bubbles' Purification
+    Retrojection
+    Hopper
+}
+Introjection
+    Muninn's Reflection
+    Bubbles' Purification
+    Numerical Reflection: 1
+    Bubbles' Purification
+Retrojection
+Zone Distillation: Item
+Nehmetawy's Gambit
+Bookkeeper's Gambit: v
+
+// Second phase. Will be ran by the Hermes in the circle.
+{
+    // Stack: Quenched Block, Quenched Shard, Amethyst Block, Amethyst Shard
+    // First loop: Dupe all the allays
+    {
+        Sekhmet' Gambit // 2
+        Use Item On
+    }
+    <{Allay Type}>
+    Introjection
+        Muninn's Reflection
+        Bubbles' Purification
+        Numerical Reflection: 1
+        Bubbles' Purification
+    Retrojection
+    Zone Exaltation: Type
+    Thoth's Gambit
+    Bookkeeper's Gambit: v
+    
+    // Second loop: Flay all the allays
+    Introjection
+        {
+            <Flat paste of filling template>
+        }
+        {
+            <Flat paste of storing template>
+        }
+        Numerical Reflection: 2
+        Flock's Gambit
+        Bubbles' Purification
+    Retrojection
+    Circle Media Rfln.
+    Numerical Reflection: 40000 // Some cuttoff point
+    Maximus Distillation
+    Length Purification
+    Selection Distillation
+    Hermes' Gambit
+
+    // Craft amethyst blocks
+    // Stack: Quenched Block, Quenched Shard, Amethyst Block, Amethyst Shard
+    // Typical operation: 24 * 2 * 2 allays = 96
+    // 96 blocks * 4 = 384 shards
+    // Need another 48 to dupe
+    // (48 + 384) shards / 6 = 72 quenched shards
+
+    // Craft shards
+    Numerical Reflection: 72
+    Splitting Gambit
+    Numerical Reflection: 3
+    Fisherman's Gambit II
+    Numerical Reflection: 2
+    Flock's Gambit
+    Craft
+    Flock's Disintegration
+    Additive Distillation
+
+    // Craft blocks
+    Numerical Reflection: 384
+    Splitting Gambit
+    Numerical Reflection: 192
+    Splitting Gambit
+    Numerical Reflection: 2
+    Flock's Gambit
+    {
+        Numerical Reflection: 96
+        Splitting Gambit
+        Numerical Reflection: 2
+        Flock's Gambit
+    }
+    Jester's Gambit
+    Nehmetawy's Gambit
+    Craft
+    Flock's Disintegration
+    Bubbling Gambit
+    Additive Distillation
+    Jester's Gambit
+}
+
+Introjection // Delay times for the wave regulators. 2 + 3 + 3 + 2 = 10, which is the music check delay.
+    Numerical Reflection: 0
+    Bubbles' Purification
+    Numerical Reflection: 3
+    Bubbles' Purification
+Retrojection

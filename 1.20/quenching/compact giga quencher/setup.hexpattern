@@ -1,0 +1,33 @@
+// Created in a way that does not care about orientation.
+Waystone Reflection
+Lodestone Reflection
+Subtractive Distillation
+Chronicler's Gambit // Motes: [Quenched Block, Quenched Shard, Amethyst Block, Amethyst Shard]
+Flock's Disintegration
+
+Waystone Reflection
+Vector Reflection +Y
+Additive Distillation
+Bind Storage - Temporary
+
+Wave Location Rfln.
+Vector Reflection +Y
+Additive Distillation
+Contemplation
+Bookkeeper's Gambit: -
+
+// Allay chamber pos. Create once, will be referenced inside the introjections.
+// Muninn's is never called during the actual looping.
+Waystone Reflection
+Lodestone Reflection
+Gemini Decomposition
+Vector Reflection -Y
+Division Distillation
+Subtractive Distillation
+Subtractive Distillation
+Huginn's Gambit
+
+{ // This will autofill in any part of the loop that uses Introjection/Retrojection
+    <Flat paste of the loop template>
+}
+Bind Macro

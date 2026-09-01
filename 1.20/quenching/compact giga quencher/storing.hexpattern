@@ -1,0 +1,86 @@
+// Stack: Quenched Block, Quenched Shard, Amethyst Block, Amethyst Shard
+Introjection
+    // Shards <= 2048
+    Contemplation
+    Bookkeeper's Gambit: v-vv-
+    {
+        Numerical Reflection: 2
+        Extract Block
+    }
+    Numerical Reflection: 2
+    Flock's Gambit
+    // Shards > 2048
+    {
+        Bookkeeper's Gambit: vvv-
+        Collect Block
+    }
+    Numerical Reflection: 2
+    Flock's Gambit
+    Bubbles' Purification
+Retrojection
+
+// Stack: Quenched Block, Quenched Shard, Amethyst Block, Amethyst Shard, [ShardOps, BlockOps]
+Numerical Reflection: 3
+Fisherman's Decomposition
+Length Purification
+Numerical Reflection: 2048
+Maximus Distillation
+Length Purification
+Selection Distillation
+Flock's Disintegration
+// Stack: Quenched Block, Quenched Shard, Amethyst Block, Amethyst Shard, [Collect], [Break]
+{
+    // Inner Stack: Quenched Block, Quenched Shard, Amethyst Block, Amethyst Shard, [Collect], [Break], Allay, Index
+    Bookkeeper's Gambit: vv-v-v--
+    // Stack: Amethyst Block, [Break], Allay, Index
+    Numerical Reflection: 24
+    Maximus Distillation II
+    {
+        Gemini Decomposition
+        Vector Reflection: (0, -0.5, 0)
+        Impulse
+    }
+    Helios' Gambit
+    Rotation Gambit II
+    // Stack: Allay, Amethyst Block, [Break]
+    Introjection
+        Muninn's Reflection
+        Vector Reflection: (0, 2, 0)
+        Additive Distillation
+        Bubbles' Purification
+    Retrojection
+    Undertaker's Gambit
+    Jester's Gambit
+    Hermes' Gambit
+    Undertaker's Gambit
+    Place Block II
+    Flay Mind
+}
+<{Allay Type}>
+Introjection
+    Muninn's Reflection
+    Bubbles' Purification
+    Numerical Reflection: 1
+    Bubbles' Purification
+Retrojection
+Zone Exaltation: Type
+Djehuty's Gambit
+Bookkeeper's Gambit: vv
+
+// Stack: Quenched Block, Quenched Shard, Amethyst Block, Amethyst Shard, [Collect]
+{
+    Jester's Gambit
+    // Inner Stack: Quenched Block, Quenched Shard, Amethyst Block, Amethyst Shard, Item, [Collect]
+    Hermes' Gambit
+    Jester's Gambit
+    Mediafy Item
+}
+Introjection
+    Muninn's Reflection
+    Bubbles' Purification
+    Numerical Reflection: 1
+    Bubbles' Purification
+Retrojection
+Zone Distillation: Item
+Nehmetawy's Gambit
+Bookkeeper's Gambit: vv
