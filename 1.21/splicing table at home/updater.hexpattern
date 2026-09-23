@@ -1,0 +1,164 @@
+// Stack: Position, Facing
+Vector Reflection +Y
+Division Distillation
+Jester's Gambit
+Undertaker's Gambit
+Vector Reflection +Y
+Additive Distillation
+// Stack: Position, Direction, Center
+Dioscuri Gambit
+Additive Distillation
+// Stack: Position, Direction, Center, Left
+Rotation Gambit II
+Undertaker's Gambit
+Jester's Gambit
+Subtractive Distillation
+// Stack: Position, Left, Center, Right
+Jester's Gambit
+Vector Reflection +Y
+Additive Distillation
+Jester's Gambit
+// Stack: Position, Left, Up, Right
+Numerical Reflection: 3
+Flock's Gambit
+Gemini Decomposition
+{
+    Entity Purification
+    Chronicler's Purification
+    Flock's Disintegration
+}
+Thoth's Gambit // 0
+// Stack: Position, [Left, Up, Right], [hex]
+Jester's Gambit
+Flock's Disintegration
+// Stack: Position, [hex], Left, Up, Right
+Numerical Reflection: 3
+Fisherman's Gambit
+Gemini Decomposition
+Length Purification
+Decrementation Purification
+Numerical Reflection: 5
+Fisherman's Gambit
+// Stack: Left, Up, Right, [hex], Max, Position
+Entity Purification
+Undertaker's Gambit
+Chronicler's Purification
+Derivation Decomposition
+// Stack: Left, Up, Right, [hex], Frame, Max, [this], Index
+Jester's Gambit
+Rotation Gambit II
+// Stack: Left, Up, Right, [hex], Frame, [this], Max, Index
+Dioscuri Gambit
+Minimus Distillation // Ensure < max
+Rotation Gambit II
+Augur's Exaltation
+// Stack: Left, Up, Right, [hex], Frame, [this], Index
+Numerical Reflection: 0
+Dioscuri Gambit
+Maximus Distillation II // Ensure >= 0
+Rotation Gambit II
+Augur's Exaltation
+Numerical Reflection: -2
+Fisherman's Gambit II
+Integration Distillation
+Chronicler's Gambit
+// Stack: Left, Up, Right, [hex], Index
+Separation Gambit
+Speaker's Decomposition
+Single's Purification
+Jester's Gambit
+// Stack: Left, Up, Right, [Before], [At], [After]
+Numerical Reflection: 373 // FEDCBA -> CFBEAD
+Swindler's Gambit
+// Stack: [Before], Left, [At], Up, [After], Right
+Numerical Reflection: 2
+Flock's Gambit
+// Stack: [Before], Left, [At], Up, [[After], Right]
+Numerical Reflection: -4
+Fisherman's Gambit
+// Stack: [[After], Right], [Before], Left, [At], Up
+Numerical Reflection: 2
+Flock's Gambit
+// Stack: [[After], Right], [Before], Left, [[At], Up]
+Numerical Reflection: -3
+Fisherman's Gambit
+// Stack: [[At], Up], [[After], Right], [Before], Left
+Numerical Reflection: 2
+Flock's Gambit
+// Stack: [[At], Up], [[After], Right], [[Before], Left]
+Rotation Gambit II
+Numerical Reflection: 3
+Flock's Gambit
+// Stack: [[Before, Left], [At, Up], [After, Right]]
+{
+    Flock's Disintegration
+    Dioscuri Gambit
+    Entity Purification
+    Jester's Gambit
+    Chronicler's Gambit
+    Vector Reflection -Y // Shift pos down to the sign
+    Additive Distillation
+    Jester's Gambit
+    Numerical Reflection: 2
+    Flock's Gambit
+}
+Thoth's Gambit // 0
+Flock's Disintegration
+// Stack: [Left, Before], [Up, At], [Right, After]
+Flock's Disintegration
+Numerical Reflection: 0
+Prospector's Gambit
+Length Purification
+Numerical Reflection: 2
+Dioscuri Gambit
+Minimus Distillation II
+Rotation Gambit II
+Augur's Exaltation
+Selection Exaltation
+Scrivener's Purification
+Numerical Reflection: 1
+Prospector's Gambit
+Length Purification
+Decrementation Purification
+Selection Exaltation
+Breaking Reflection
+Jester's Gambit
+Additive Distillation
+Write
+// Stack: [Left, Before], [Up, At]
+Flock's Disintegration
+Numerical Reflection: 0
+Selection Distillation
+Scrivener's Purification
+Breaking Reflection
+Breaking Reflection
+Additive Distillation
+Jester's Gambit
+Additive Distillation
+Write
+// Stack: [Left, Before]
+Flock's Disintegration
+Gemini Decomposition
+Length Purification
+Gemini Decomposition
+Numerical Reflection: 2
+Subtractive Distillation
+Numerical Reflection: 0
+Dioscuri Gambit
+Maximus Distillation II
+Rotation Gambit II
+Augur's Exaltation
+Selection Exaltation
+Scrivener's Purification
+Numerical Reflection: 1
+Prospector's Gambit
+Length Purification
+Decrementation Purification
+Selection Distillation
+Breaking Reflection
+Jester's Gambit
+Additive Distillation
+Write
+// Index data
+Charon's Gambit
+<0>
