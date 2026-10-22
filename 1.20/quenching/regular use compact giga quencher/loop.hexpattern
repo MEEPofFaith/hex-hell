@@ -1,0 +1,181 @@
+// Failsafe
+Mind's Reflection
+Nullary Reflection
+Inequality Distillation
+<{"Bound Player is not Nearby!"}>
+Ma'at's Gambit
+
+// Start by gbreeding all the allyas
+{
+    Sekhmet' Gambit // 1
+    Greater Breed
+}
+<{Allay Type}>
+<{Allay Pos}>
+Numerical Reflection: 1
+Zone Exaltation: Type
+Thoth's Gambit
+Bookkeeper's Gambit: v
+// Suck up the dropped dust for a minor refund
+{
+    Sekhmet' Gambit // 1
+    Waystone Reflection
+    Hopper
+}
+<{Allay Pos}>
+Numerical Reflection: 1
+Zone Distillation: Item
+Thoth's Gambit
+Bookkeeper's Gambit: v
+
+// Second phase. Will be ran by the Hermes in the circle.
+{
+    // First loop: Dupe all the allays
+    <{Amethsyt Shard Mote}>
+    {
+        Sekhmet' Gambit // 2
+        Use Item On
+    }
+    <{Allay Type}>
+    <{Allay Pos}>
+    Numerical Reflection: 1
+    Zone Exaltation: Type
+    Thoth's Gambit
+    Bookkeeper's Gambit: vv
+    
+    // Second loop: Flay all the allays
+    { // Inner Stack: Allay, #
+        // Yeet into the lava
+        Numerical Reflection: 24
+        Maximus Distillation II
+        {
+            Gemini Decomposition
+            Vector Reflection -Y
+            Impulse
+        }
+        Helios' Gambit
+        
+        { // Case 1: Needs more quenched
+            <{Flay Pos}>
+            Gemini Decomposition
+            Numerical Reflection: 2
+            Extract Block
+            Entity Purification: Item
+            Mediafy Item
+            // Inner Stack: Allay, Mote
+            <{Quenched Shards Mote}>
+            Jester's Gambit
+            Additive Distillation
+            Bookkeeper's Gambit: v
+        }
+        { // Case 2: Refill media
+            <{Flay Pos}>
+            Gemini Decomposition
+            Collect Block
+            Entity Purification: Item
+            Waystone Reflection
+            Hopper
+        }
+        { // Else: Fill with blocks
+            <{Flay Pos}>
+            Gemini Decomposition
+            Collect Block
+            Entity Purification: Item
+            Mediafy Item
+            <{Quenched Blocks Mote}>
+            Jester's Gambit
+            Additive Distillation
+            Bookkeeper's Gambit: v
+        }
+        Numerical Reflection: 3
+        Flock's Gambit // This list of hexes should be embedded for optimization
+
+        {
+            Hermes' Gambit
+            Sekhmet' Gambit // 1
+            Contemplation
+            Charon's Gambit
+            Contemplation
+            True Reflection
+            Augur's Exaltation
+            Hermes' Gambit
+        }
+        { // Case 1: Needs more quenched
+            // Inner Stack: Quenched Block, Quenched Shard, Amethyst Block, Amethyst Shard, Allay, [[ops]]
+            <{Quenched Shards Mote}>
+            Length Purification
+            Numerical Reflection: 72
+            Minimus Distillation
+        }
+        { // Case 2: Needs more media
+            Circle Media Rfln.
+            Numerical Reflection: 40000 // Just embed this
+            Minimus Distillation
+        }
+        Numerical Reflection: 2
+        Flock's Gambit // This list of hexes should be embedded for optimization
+        Thoth's Gambit
+        Length Purification // 0 = Case 1, 1 = Case 2, 2 = Else
+        Selection Distillation
+        Hermes' Gambit
+        
+        <{Ameshyt Block Mote}>
+        <{Flay Pos}>
+        Undertaker's Gambit
+        Place Block II
+        Flay Mind
+
+        Sekhmet' Gambit // 0
+    }
+    <{Allay Type}>
+    <{Allay Pos}>
+    Numerical Reflection: 1
+    Zone Exaltation: Type
+    Djehuty's Gambit
+    Bookkeeper's Gambit: v
+
+    // Craft amethyst blocks
+    // Stack: Quenched Block, Quenched Shard, Amethyst Block, Amethyst Shard
+    // Typical operation: 24 * 2 * 2 allays = 96
+    // 96 blocks * 4 = 384 shards
+    // Need another 48 to dupe
+    // (48 + 384) shards / 6 = 72 quenched shards
+
+    // Craft shards
+    <{Amethsyt Shard Mote}>
+    Numerical Reflection: 72
+    Splitting Gambit
+    <{Quenched Shards Mote}>
+    Numerical Reflection: 2
+    Flock's Gambit
+    Craft
+    Flock's Disintegration
+    Additive Distillation
+
+    // Craft blocks
+    Numerical Reflection: 384
+    Splitting Gambit
+    Numerical Reflection: 192
+    Splitting Gambit
+    Numerical Reflection: 2
+    Flock's Gambit
+    {
+        Sekhmet' Gambit // 1
+        Numerical Reflection: 96
+        Splitting Gambit
+        Numerical Reflection: 2
+        Flock's Gambit
+    }
+    Jester's Gambit
+    Thoth's Gambit
+    Craft
+    Flock's Disintegration
+    <{Ameshyt Block Mote}>
+    Jester's Gambit
+    Additive Distillation
+    Sekhmet' Gambit // 0
+}
+
+// Delay times for the wave regulators. 2 + 9 + 9 + 2 = 20, which is the music check delay.
+Numerical Reflection: 0
+Numerical Reflection: 9
