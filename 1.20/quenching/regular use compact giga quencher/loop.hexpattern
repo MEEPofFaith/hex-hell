@@ -101,7 +101,6 @@ Bookkeeper's Gambit: v
             Hermes' Gambit
         }
         { // Case 1: Needs more quenched
-            // Inner Stack: Quenched Block, Quenched Shard, Amethyst Block, Amethyst Shard, Allay, [[ops]]
             <{Quenched Shards Mote}>
             Length Purification
             Numerical Reflection: 72
