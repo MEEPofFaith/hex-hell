@@ -61,11 +61,8 @@ Bookkeeper's Gambit: v
             Numerical Reflection: 2
             Extract Block
             Entity Purification: Item
-            Mediafy Item
-            // Inner Stack: Allay, Mote
             <{Quenched Shards Mote}>
-            Jester's Gambit
-            Additive Distillation
+            Mediafy Item
             Bookkeeper's Gambit: v
         }
         { // Case 2: Refill media
@@ -81,10 +78,8 @@ Bookkeeper's Gambit: v
             Gemini Decomposition
             Collect Block
             Entity Purification: Item
-            Mediafy Item
             <{Quenched Blocks Mote}>
-            Jester's Gambit
-            Additive Distillation
+            Mediafy Item
             Bookkeeper's Gambit: v
         }
         Numerical Reflection: 3
