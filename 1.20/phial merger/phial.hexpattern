@@ -1,30 +1,40 @@
 // Move quenched to cradle
-<{Vessel View}>
-<{Cradle View}>
-<{Quenched Concept}>
+{
+    <Vessel View>
+    <Cradle View>
+    <Quenched Concept>
+}
+Flock's Disintegration
 Numerical Reflection: 64
 Transfer Substance
+Bookkeeper's Gambit: v
 
 // Move bottle to pocket sim
-<{Vessel View}>
-<{Pocket View}>
-<{Bottle Concept}>
+{
+    <Vessel View>
+    <Pocket View>
+    <Bottle Concept>
+}
+Flock's Disintegration
 Numerical Reflection: 1
 Transfer Substance
 
 // Set slot to empty bottle
+Bookkeeper's Gambit: v
 {
-    Sekhmet' Gambit // 1
+    Sekhmet's Gambit: 1
     Sorter's Purification
 }
 List Items
 Thoth's Gambit
-<{bottle type}>
+Contemplation
+<Glass Bottle>
 Locator's Distillation
 Set Slot
 
 // Make phial
-<{Cradle Pos}>
+Contemplation
+<Cradle Pos>
 Entity Purification: Item
 Craft Phial
 
@@ -37,54 +47,73 @@ Numerical Reflection: 2
 Division Distillation
 Anchorite's Flight
 
+// Set recipe
+Contemplation
+<Assembler Pos>
+List Items
+Set Recipe
+
 // Move phials to vessel
-<{Pocket View}>
-<{Vessel View}>
+{
+    <Pocket View>
+    <Vessel View>
+}
+Flock's Disintegration
 Prospector's Gambit
 Inquiry Purification
 {
     Gemini Decomposition
     Dwelling Purification
-    <{"item"}>
+    Contemplation
+    <"item">
     Selection Distillation
-    <{"hexcasting:battery"}>
+    Contemplation
+    <"hexcasting:battery">
     Equality Distillation
     {
         Numerical Reflection: 1
         Transfer Substance
+        Bookkeeper's Gambit: v
     }
     Contemplation
-    Sekhmet' Gambit // 0
+    Sekhmet's Gambit: 0
     Augur's Exaltation
     Hermes' Gambit
 }
 Jester's Gambit
 Thoth's Gambit
-Sekhmet' Gambit // 0
+Sekhmet's Gambit: 0
+
+// A single slate here needs BK: v to delete the bool the assembler leaves.
 
 { // After craft, ran by Hermes after the crafter
-    // Move phial from vessel to pocket
-    <{Vessel View}>
-    <{Pocket View}>
+    {
+        <Vessel View>
+        <Pocket View>
+    }
+    Flock's Disintegration
     Prospector's Gambit
     Inquiry Purification
     {
         Gemini Decomposition
         Dwelling Purification
-        <{"item"}>
+        Contemplation
+        <"item">
         Selection Distillation
-        <{"hexcasting:battery"}>
+        Contemplation
+        <"hexcasting:battery">
         Equality Distillation
         {
             Numerical Reflection: 1
             Transfer Substance
+            Bookkeeper's Gambit: v
         }
         Contemplation
-        Sekhmet' Gambit // 0
+        Sekhmet's Gambit: 0
         Augur's Exaltation
         Hermes' Gambit
     }
     Jester's Gambit
     Thoth's Gambit
-    Sekhmet' Gambit // 0
+    Sekhmet's Gambit: 0
 }
