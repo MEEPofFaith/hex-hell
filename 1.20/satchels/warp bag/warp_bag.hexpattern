@@ -1,55 +1,48 @@
 // Execute on out
 // Stack: Itemstack, Slot #
 
-// Take out
+// Take out the item
 Undertaker's Gambit
 Manifold's Distillation
+Undertaker's Gambit
 
-// Stack: Item Entity, Slot #
-{
-    Hermes' Gambit
-}
-{
-    Sekhmet' Gambit: 1
-    // Inner stack: Item Entity
-    Gemini Decomposition
-    Auditor's Purification
-    { // Can be read: Assume knot with data.
-        Chronicler's Purification
-        // Stack: [mode, pos, dimension]
-        Derivation Decomposition
-        <{teleport hex}>
-        Numerical Reflection: 1
-        // Stack: [mode, pos], dimension, [teleport], 1
-        Geb's Gambit: 3
-        Surgeon's Exaltation
-        Prospector's Gambit
-        Spatial Reflection
-        Equality Distillation
-        { // Same dimension: just execute the teleport
-            Bookkeeper's Gambit: v-
-            Hermes' Gambit
-        }
-        { // Different dimension: Noetic, then enqueue the teleport
-            Mind's Reflection
-            Rotation Gambit
-            Noetic Gateway
-            Numerical Reflection: 10 // Give some time for the world border to tp me back in.
-            Enqueue
-        }
-        Augur's Exaltation
+// Inner stack: Item Entity, Slot #, Item Entity
+Gemini Decomposition
+Auditor's Purification
+{ // Can be read: Assume knot with data. Read, then return the item.
+    Chronicler's Purification
+    Rotation Gambit II
+    Manifold's Gambit
+    // Stack: [mode, pos, dimension]
+    Derivation Decomposition
+    <{teleport hex}>
+    Numerical Reflection: 1
+    // Stack: [mode, pos], dimension, [teleport], 1
+    Geb's Gambit: 3
+    Surgeon's Exaltation
+    Prospector's Gambit
+    Spatial Reflection
+    Equality Distillation
+    { // Same dimension: just execute the teleport
+        Bookkeeper's Gambit: v-
         Hermes' Gambit
     }
-    { // Cannot be read: Assume its a key.
-        Bookkeeper's Gambit: v
-        // TODO
+    { // Different dimension: Noetic, then enqueue the teleport
+        Mind's Reflection
+        Rotation Gambit
+        Noetic Gateway
+        Numerical Reflection: 10 // Give some time for the world border to tp me back in.
+        Enqueue
     }
     Augur's Exaltation
     Hermes' Gambit
 }
-Single's Purification
-Thoth's Gambit // Replicate Hanoi. Allows for safe stack deletion during exectuion, in case I need it.
-Bookkeeper's Gambit: v
+{ // Cannot be read: Assume its a key.
+    Bookkeeper's Gambit: v
+    // TODO
+}
+Augur's Exaltation
+Hermes' Gambit
 
 // Put it back
 Jester's Gambit
