@@ -1,0 +1,90 @@
+// Move quenched to cradle
+<{Vessel View}>
+<{Cradle View}>
+<{Quenched Concept}>
+Numerical Reflection: 64
+Transfer Substance
+
+// Move bottle to pocket sim
+<{Vessel View}>
+<{Pocket View}>
+<{Bottle Concept}>
+Numerical Reflection: 1
+Transfer Substance
+
+// Set slot to empty bottle
+{
+    Sekhmet' Gambit // 1
+    Sorter's Purification
+}
+List Items
+Thoth's Gambit
+<{bottle type}>
+Locator's Distillation
+Set Slot
+
+// Make phial
+<{Cradle Pos}>
+Entity Purification: Item
+Craft Phial
+
+// Waste media
+Mind's Reflection
+Media Reflection
+Numerical Reflection: 128
+Subtractive Distillation
+Numerical Reflection: 2
+Division Distillation
+Anchorite's Flight
+
+// Move phials to vessel
+<{Pocket View}>
+<{Vessel View}>
+Prospector's Gambit
+Inquiry Purification
+{
+    Gemini Decomposition
+    Dwelling Purification
+    <{"item"}>
+    Selection Distillation
+    <{"hexcasting:battery"}>
+    Equality Distillation
+    {
+        Numerical Reflection: 1
+        Transfer Substance
+    }
+    Contemplation
+    Sekhmet' Gambit // 0
+    Augur's Exaltation
+    Hermes' Gambit
+}
+Jester's Gambit
+Thoth's Gambit
+Sekhmet' Gambit // 0
+
+{ // After craft, ran by Hermes after the crafter
+    // Move phial from vessel to pocket
+    <{Vessel View}>
+    <{Pocket View}>
+    Prospector's Gambit
+    Inquiry Purification
+    {
+        Gemini Decomposition
+        Dwelling Purification
+        <{"item"}>
+        Selection Distillation
+        <{"hexcasting:battery"}>
+        Equality Distillation
+        {
+            Numerical Reflection: 1
+            Transfer Substance
+        }
+        Contemplation
+        Sekhmet' Gambit // 0
+        Augur's Exaltation
+        Hermes' Gambit
+    }
+    Jester's Gambit
+    Thoth's Gambit
+    Sekhmet' Gambit // 0
+}
