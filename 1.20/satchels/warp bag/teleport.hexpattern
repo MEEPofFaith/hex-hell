@@ -1,0 +1,42 @@
+Contemplation
+Bookkeeper's Gambit: - // Will be surgeoned in
+Flock's Disintegration
+
+// Stack: mode, pos
+Mind's Reflection
+Compass' Purification
+Subtractive Distillation
+// Stack: mode, offset
+Mind's Reflection
+Reflecting Gambit
+// Stack: me, offset, mode
+<{"gtp"}>
+Equality Distillation
+Contemplation
+Greater Teleport
+{ // Use gblink
+    Mind's Reflection
+    Sextant Decomposition
+    // Stack: me, offset, pitch, yaw
+    Bubbling Gambit
+    Reflection Purification
+    Yaw Distillation
+    Jester's Gambit
+    Reflection Purification
+    Pitch Distillation
+    // Stack: me, r-offset
+    Gemini Decomposition
+    Length Purification
+    Numerical Reflection: 128
+    Division Distillation
+    Ceiling Purification
+    Undertaker's Gambit
+    Division Distillation
+    Jester's Gambit
+    {
+        Greater Blink
+    }
+    Kitkat's Gambit
+}
+Augur's Exaltation
+Hermes' Gambit
