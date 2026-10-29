@@ -9,29 +9,6 @@ Numerical Reflection: 64
 Transfer Substance
 Bookkeeper's Gambit: v
 
-// Move bottle to pocket sim
-{
-    <Vessel View>
-    <Pocket View>
-    <Bottle Concept>
-}
-Flock's Disintegration
-Numerical Reflection: 1
-Transfer Substance
-
-// Set slot to empty bottle
-Bookkeeper's Gambit: v
-{
-    Sekhmet's Gambit: 1
-    Sorter's Purification
-}
-List Items
-Thoth's Gambit
-Contemplation
-<Glass Bottle>
-Locator's Distillation
-Set Slot
-
 // Make phial
 Contemplation
 <Cradle Pos>
@@ -47,11 +24,18 @@ Numerical Reflection: 2
 Division Distillation
 Anchorite's Flight
 
-// Set recipe
+// Get recipe
 Contemplation
 <Assembler Pos>
 List Items
-Set Recipe
+{
+    Sekhmet' Gambit: 1
+    Sorter's Purification
+    Contemplation
+    <Phial>
+    Equality Distillation
+}
+Refinement Distillation
 
 // Move phials to vessel
 {
@@ -62,6 +46,7 @@ Flock's Disintegration
 Prospector's Gambit
 Inquiry Purification
 {
+    Sekhmet' Gambit: 3
     Gemini Decomposition
     Dwelling Purification
     Contemplation
@@ -82,11 +67,34 @@ Inquiry Purification
 }
 Jester's Gambit
 Thoth's Gambit
-Sekhmet's Gambit: 0
+Bookkeeper's Gambit: vvv
+
+// Grab 1 dust from vessel, then use it to set the recipe
+{
+    <Vessel View>
+    <Pocket View>
+    <Dust Concept>
+}
+Flock's Disintegration
+Numerical Reflection: 1
+Transfer Substance
+Bookkeeper's Gambit: v
+Set Recipe
 
 // A single slate here needs BK: v to delete the bool the assembler leaves.
 
 { // After craft, ran by Hermes after the crafter
+    // Move bottle to pocket sim. BOTTLE MUST BE FIRST - ALWAYS IN SLOT 0
+    {
+        <Vessel View>
+        <Pocket View>
+        <Bottle Concept>
+    }
+    Flock's Disintegration
+    Numerical Reflection: 1
+    Transfer Substance
+
+    // Move phial to pocket sim
     {
         <Vessel View>
         <Pocket View>
