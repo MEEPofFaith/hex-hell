@@ -1,0 +1,35 @@
+// Based on the example in the book
+
+Conveyance's Reflection
+Flock's Disintegration
+// Stack: input, facing, right, velocity, climb speed, ground speed, last accel, media, [data]
+Bookkeeper's Gambit: vvvvv
+// Stack: input, facing, right, velocity
+Speedy's Reflection
+Flock's Disintegration
+// Stack: input, facing, right, velocity, max vel, max hori, max verti
+Numerical Reflection: 3258
+Swindler's Gambit
+// Stack: max vel, velocity, input, max verti, facing, right, max hori
+Undertaker's Gambit
+Multiplicative Distillation
+Rotation Gambit II
+Multiplicative Distillation
+// Stack: max vel, velocity, input, max verti, right, facing
+Rotation Gambit
+Vector Reflection +Y
+Multiplicative Distillation
+// Stack: max vel, velocity, input, right, facing, up
+Jester's Gambit
+Numerical Reflection: 3
+Flock's Gambit
+Transformation Purification
+Jester's Gambit
+Transformation Purification
+Multiplicative Distillation
+Restoration Purification
+// Stack: max vel, velocity, throttle
+Jester's Gambit
+Subtractive Distillation
+Jester's Gambit
+Division Distillation
