@@ -1,0 +1,51 @@
+// Eat all the wisps
+{
+    Numerical Reflection: 1
+    Zone Distillation: Wisp
+    {
+        Consume Wisp
+    }
+    Jester's Gambit
+    Thoth's Gambit
+}
+Contemplation
+<[Slipway Pos]>
+Thoth's Gambit
+Bookkeeper's Gambit: v
+
+// Store all media into this impetus
+Media Reflection
+Contemplation
+<1.10> //Compensate for 10% tax
+Division Distillation
+Waystone Reflection
+Jester's Gambit
+Deposit Media
+
+// Distribute to condensers
+Waystone Reflection
+Vector Reflection -Z
+Additive Distillation
+Chronicler's Purification
+{
+    Contemplation
+    <7680> //Condenser capacity
+    Prospector's Gambit
+    Inner Media Purification
+    Subtractive Distillation
+    Circle Media Rfln.
+    Numerical Reflection: 100
+    Subtractive Distillation
+    Minimum Distillation
+    Numerical Reflection: 0
+    Maximum Distillation
+    Gemini Decomposition
+    {
+        Contemplation
+        <1.10> //Compensate for 10% tax
+        Division Distillation
+        Deposit Media
+    }
+    Helios' Gambit
+}
+Region Thoth
