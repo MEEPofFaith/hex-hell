@@ -1,0 +1,99 @@
+{
+    // Starter bit by Rose. Treat as black box.
+    Contemplation
+    <onlokonwa>
+    Observation Purification
+    Mind's Reflection
+    Scrivener's Purification
+    Locator's Distillation
+    Nullary Reflection
+    Equality Distillation
+    { // Not in the list, dispense hextito.
+        Bookkeeper's Gambit: v
+        Mind's Reflection
+        Compass' Purification II
+        Contemplation
+        <[[Call -> (Evaluate, FinishEval)]]>
+        Conjure Hextito
+        Mind's Reflection
+        Compass' Purification II
+        Entity Purification: Item
+        Contemplation
+        <"§d§n~SoulGlimmer Collector~">
+        Reading Purification
+        Prospector's Gambit
+        {
+            Reading Purification
+            Sekhmet's Gambit: 1
+        }
+        Contemplation
+        <["Adds your personal soulglimmer iota to a property,", "along with a string of your name.", "This property will be accessible at spawn, so that", "it can be publicly used for taking anyone's soulglimmer!"]>
+        Thoth's Gambit
+        Describe Item
+        Name Item
+        Janus' Gambit
+    }
+    Helios' Gambit
+
+    // Menu
+    { // Regular pigments
+        {
+            Contemplation
+            Contemplation
+            Prospector's Gambit
+            Contemplation
+            Internalize Pigment II
+            Numerical Reflection: 3
+            Flock's Purification
+            Jester's Gambit
+            Reading Purification (text)
+            Intent Button
+        }
+        Contemplation
+        <Pigments list>
+        Thoth's Gambit
+        Contemplation
+        <Pigment Selection>
+        Numerical Reflection: 10
+        Manifest Grid Menu
+    }
+    Contemplation
+    <Pigments>
+    Intent Button
+    { // Ourglimmer
+        {
+            {
+                Contemplation
+                Bookkeeper's Gambit: -
+                Internalize Pigment II
+            }
+            Prospector's Gambit
+            Numerical Reflection: 1
+            Selection Distillation
+            Numerical Reflection: 1
+            Jester's Gambit
+            Surgeon's Exaltation
+            Jester's Gambit
+            Reading Purification (text)
+            Intent Button
+        }
+        Contemplation
+        <onlokonwa>
+        Observation Purification
+        Entry Purification
+        Thoth's Gambit
+        Contemplation
+        <Ourglimmer Selection>
+        Numerical Reflection: 5
+        Manifest Grid Menu
+    }
+    Contemplation
+    <Ourglimmer>
+    Intent Button
+    Numerical Reflection: 2
+    Flock's Gambit
+    Contemplation
+    <"Pigment Picker">
+    Manifest Radial Menu
+}
+Lani's Gambit
