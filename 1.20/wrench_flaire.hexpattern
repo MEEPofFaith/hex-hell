@@ -1,0 +1,70 @@
+{
+    Mind's Reflection
+    Compass' Purification
+    Mind's Reflection
+    Alidade's Purification
+    Archer's Distillation
+    Gemini Decomposition
+    {
+        Mind's Reflection
+        Compass' Purification II
+        Numerical Reflection: 0.375
+        <{[-1.00, 1.00]}>
+        Dexterity Reflection
+        Length Purification
+        Selection Distillation
+        Multiplicative Distillation
+        Numerical Reflection: 2.25
+        Numerical Reflection: 0.375
+        Vector Exaltation
+        Mind's Reflection
+        Sextant Purification
+        Yaw Distillation
+        Additive Distillation
+        // Stack: Target Pos, Origin Pos
+        Dioscuri Gambit
+        Numerical Reflection: 2
+        Flock's Gambit
+        Particles
+        Dioscuri Gambit
+        Numerical Reflection: 1
+        Approach Exaltation
+        Rotation Gambit II
+        // Stack: Effect Pos, Target Pos, Origin Pos
+        Subtractive Distillation
+        Norm Purification
+        Reflection Purification
+        // Stack: Effect Pos, Direction
+        {
+            // Stack: Effect Pos, Direction, Point
+            Jester's Gambit
+            Polar Decomposition
+            // Stack: Effect Pos, Point, Pitch, Yaw
+            Rotation Gambit II
+            Pitch Distillation
+            Jester's Gambit
+            Yaw Distillation
+            Numerical Reflection: 1.5
+            Multiplicative Distillation
+            Additive Distillation
+        }
+        Stealthy Reflection
+        Numerical Reflection: -1
+        Inequality Distillation
+        Contemplation
+        Break Block
+        Contemplation
+        Rotate Block
+        Augur's Exaltation
+        Handwriting Distillation
+        Thoth's Gambit
+        Particles
+    }
+    Helios' Gambit
+    // Run use item to perform regular operation after the charm
+    Mind's Reflection
+    Numerical Reflection: -1
+    Bid: Use Item
+}
+Numerical Reflection: 1
+Enqueue
