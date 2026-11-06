@@ -1,0 +1,139 @@
+// Don't need dimension exectuion, Hexpose is adequete for comparison and is free.
+Plane Reflection
+Contemplation
+<Nether>
+Equality Distillation
+Contemplation
+<"Why are you using this outside the Nether?">
+Ma'at's Gambit
+{
+    Sekhmet' Gambit: 0
+    Contemplation
+    Bookkeeper's Gambit: -
+    // Stack: Facing Direction
+    Identity Reflection
+    Compass' Purification II
+    // Stack: Facing, Pos
+    Dioscuri Gambit
+    Additive Distillation
+    Gemini Decomposition
+    Pathfinder's Gambit
+    Numerical Reflection: 3
+    Phase Block
+    Dioscuri Gambit
+    Hadamard Distillation
+    Length Purification // Other two values will be 0.
+    Floor Purification
+    Numerical Reflection: 16
+    Modulus Distillation II
+    Contemplation
+    <[(0, 1, 0), (0, -1, 0)]>
+    Jester's Gambit
+    Selection Distillation // % 8 = 0 -> +Y, % 8 == 1 -> -Y, else null
+    // Stack: Facing, Pos, Turn?
+    Gemini Decomposition
+    { // Summon debris breakers
+        // Stack: Facing, Pos, Turn
+        Bubbling Gambit
+        Division Distillation // Cross product to rotate 90*
+        {
+            Sekhmet' Gambit: 0
+            Contemplation
+            Bookkeeper's Gambit: -
+            // Stack: Facing
+            Identity Reflection
+            Compass' Purification
+            // Stack: Facing, Pos
+            Dioscuri Gambit
+            Additive Distillation
+            Gemini Decomposition
+            Pathfinder's Gambit
+            Numerical Reflection: 3
+            Phase Block
+            Jester's Gambit
+            Vector Reflection +Y
+            Division Distillation
+            Vector Reflection +Y
+            Additive Distillation
+            Numerical Reflection: 4
+            Multiplicative Distillation
+            Dioscuri Gambit
+            Additive Distillation
+            Rotation Gambit II
+            Subtractive Distillation
+            // Stack: Corner1, Corner2
+            Box Region
+            {
+                Gemini Decomposition
+                Sorter's Purification
+                Contemplation
+                <Ancient Debris>
+                Equality Distillation
+                {
+                    Gemini Decomposition
+                    Break Block
+                    Numerical Reflection: 1
+                    Zone Distillation: Item
+                    {
+                        Mind's Reflection
+                        Hopper
+                    }
+                    Jester's Gambit
+                    Thoth's Gambit
+                }
+                {
+                    Gemini Decomposition
+                    Coordinate Purification: Y
+                    Floor Purification
+                    Numerical Reflection: 13
+                    Numerical Reflection: 15
+                    Numerical Reflection: 3
+                    Range Exaltation
+                    Prospector's Gambit
+                    Sorter's Purification
+                    Contemplation
+                    <Netherrack>
+                    Equality Distillation
+                    Conjunction Distillation
+                    Contemplation
+                    Annihilate Block
+                    Contemplation
+                    Bookkeeper's Gambit: v
+                    Augur's Purification
+                    Hermes' Gambit
+                }
+                Augur's Exaltation
+                Hermes' Gambit
+            }
+            Rotation Gambit II
+            False Reflection
+            Cubic Exaltation
+            Wander
+        }
+        Numerical Reflection: 2
+        Rotation Gambit
+        Surgeon's Exaltation
+        Jester's Gambit
+        Numerical Reflection: 24
+        Summon Cyclic Wisp
+    }
+    Helios' Gambit
+    Wander
+}
+Numerical Reflection: 2
+Mind's Reflection
+Sextant Distillation
+Bookkeeper's Gambit: v-
+Yaw Purification
+Axial Purification
+Surgeon's Exaltation
+Mind's Reflection
+Compass' Purification II
+Numerical Reflection: 16
+Rounding Distillation
+Numerical Reflection: 14
+Coordinate Distillation: Y
+Numerical Reflection: 0.5
+Additive Distillation
+Numerical Reflection: 256
+Summon Cyclic Wisp
