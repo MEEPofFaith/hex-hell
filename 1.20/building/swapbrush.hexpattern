@@ -1,0 +1,42 @@
+// Reverb wand that replaces blocks I look at
+Mind's Reflection
+Compass' Purification
+Mind's Reflection
+Alidade's Purification
+Archer's Distillation
+Numerical Reflection: 5
+Gemini Gambit
+Sorter's Purification
+Mind's Reflection
+Shieldbearer's Purification
+Gemini Decomposition
+{
+    Finale
+    Janus' Gambit // Apparently Finale doesn't halt?
+}
+Selene's Gambit
+Sorter's Purification
+Equality Distillation
+Acheron's Gambit
+Collect Block
+{
+    Place Block
+}
+Athena's Gambit
+Acheron's Gambit // Failed to place - Probably targetted an indestructable block. Exit
+Baton Reflection
+Axial Purification
+{ // Attempt to rotate to match starting direction.
+    Rotate Block
+}
+Athena's Gambit
+Contemplation
+Bookkeeper's Gambit: vv
+Helios' Gambit
+Entity Purification: Item
+Gemini Decomposition
+{
+    Mind's Reflection
+    Hopper
+}
+Helios' Gambit
