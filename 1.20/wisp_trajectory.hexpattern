@@ -1,0 +1,81 @@
+// Stack: Vel, Target Pos, Origin Pos
+Vacant Reflection // Or any hex
+Prospector's Gambit
+Vector Reflection Zero
+Numerical Reflection: 5 // Some amount of media
+Summon Projectile Wisp
+Gemini Decomposition
+Entity Purification: Wisp
+Nut's Gambit: 3
+// Stack: Wisp, Vel, Target Pos, Origin Pos
+Subtractive Distillation
+// Stack: Wisp, Vel, Delta
+Gemini Decomposition
+Huginn's Gambit
+// https://www.desmos.com/calculator/dqjvjszd6g
+Vector Disintegration
+// Collapse 3d into 2d - merge x and z distances
+Numerical Reflection: 2
+Power Distillation
+Rotation Gambit
+Numerical Reflection: 2
+Power Distillation
+Additive Distillation
+Numerical Reflection: 0.5
+Power Distillation
+// Stack: Wisp, Vel, y, d
+// Calculate u
+Gemini Decomposition
+Numerical Reflection: 2
+Power Distillation
+Contemplation
+<0.04> // Default gravity is -0.04 blocks/t/t
+Multiplicative Distillation
+// Stack: Wisp, Vel, y, d, g*d^2
+Numerical Reflection: 3
+Fisherman's Gambit II
+Numerical Reflection: 2
+Power Distillation
+Numerical Reflection: 2
+Multiplicative Distillation
+Division Distillation
+Reflection Purification
+// Stack: Wisp, Vel, y, d, u
+// Calculate theta
+Gemini Decomposition
+Numerical Reflection: 3
+Fisherman's Gambit
+Subtractive Distillation
+Prospector's Gambit
+Numerical Reflection: 4
+Multiplicative Distillation
+Multiplicative Distillation
+// Stack: Wisp, Vel, d, u, 4u(u-y)
+Numerical Reflection: 2
+Fisherman's Gambit II
+Numerical Reflection: 2
+Power Distillation
+Jester's Gambit
+Subtractive Distillation
+Numerical Reflection: 0.5
+Power Distillation
+// Stack: Wisp, Vel, d, u, sqrt(d^2 - 4u(u-y))
+Rotation Gambit
+Reflection Purification
+Jester's Gambit
+Subtractive Distillation // Subtract for the upper route.
+// Stack: Wisp, Vel, u, -d - sqrt(d^2 - 4u(u-y))
+Jester's Gambit
+Numerical Reflection: 2
+Multiplicative Distillation
+Division Distillation
+Inverse Tangent Purification
+// Stack: Wisp, Vel, Pitch
+Muninn's Reflection
+Polar Decomposition
+Bookkeeper's Gambit: v-
+Polar Distillation
+Multiplicative Distillation
+Angler's Gambit: 1
+Impulse
+Ride Wisp
