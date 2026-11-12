@@ -13,7 +13,6 @@ Subtractive Distillation
 Gemini Decomposition
 Huginn's Gambit
 // https://www.desmos.com/calculator/dqjvjszd6g
-// Note: Does not account for drag. I don't feel like it
 Vector Disintegration
 // Collapse 3d into 2d - merge x and z distances
 Numerical Reflection: 2
@@ -30,7 +29,8 @@ Gemini Decomposition
 Numerical Reflection: 2
 Power Distillation
 Contemplation
-<0.04> // Default gravity is -0.04 blocks/t/t
+<0.05> // Gravity on wisps is -0.05 blocks/t/t
+
 Multiplicative Distillation
 // Stack: Wisp, Vel, y, d, g*d^2
 Numerical Reflection: 3
