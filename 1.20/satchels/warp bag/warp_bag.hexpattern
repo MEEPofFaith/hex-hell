@@ -23,38 +23,22 @@ Auditor's Purification
     Prospector's Gambit
     Spatial Reflection
     Equality Distillation
-    { // Same dimension: just execute the teleport
-        Bookkeeper's Gambit: v-
-        Hermes' Gambit
-    }
-    { // Different dimension: Noetic, then enqueue the teleport
+    Contemplation // Same dimension: just execute the teleport
+    Bookkeeper's Gambit: v-
+    { // Different dimension: Noetic, then teleport
         Mind's Reflection
         Rotation Gambit
         Noetic Gateway
-        Numerical Reflection: 10 // Give some time for the world border to tp me back in.
-        Enqueue
     }
     Augur's Exaltation
+    Hermes' Gambit
     Hermes' Gambit
 }
 { // Cannot be read: Assume its a key.
     Bookkeeper's Gambit: v--
-    Gemini Decomposition
-    Compass' Purification II
-    // Inner stack: Slot #, Item Entity, Pos
-    Jester's Gambit
-    Sleight
-    Mind's Reflection
-    Compass' Purification II
-    Mage Hand
-    Entity Purification: Item
-    Sleight
+    // Inner stack: Slot #, Item Entity
     Jester's Gambit
     Manifold's Gambit
 }
 Augur's Exaltation
 Hermes' Gambit
-
-// Put it back
-Jester's Gambit
-Manifold's Gambit

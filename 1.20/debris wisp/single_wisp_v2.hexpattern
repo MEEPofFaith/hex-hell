@@ -1,0 +1,135 @@
+// Having a ton of wisps via branching is really laggy. Use a single wisp with few larger operation instead of frequent small ones.
+
+// Don't need dimension exectuion, Hexpose is adequete for comparison and is free.
+Plane Reflection
+Contemplation
+<minecraft:the_nether>
+Equality Distillation
+Contemplation
+<"Why are you using this outside the nether?">
+Ma'at's Gambit
+Mind's Reflection
+Compass' Purification II
+Coordinate Purification: Y
+Numerical Reflection: 0
+Numerical Reflection: 20
+Numerical Reflection: 3
+Range Exaltation
+Contemplation
+<"Outside of range">
+Ma'at's Gambit
+
+{
+    Sekhmet' Gambit: 0
+    Identity Reflection
+    Compass' Purification
+    Contemplation
+    Bookkeeper's Gambit: -
+    Dioscuri Gambit
+    Numerical Reflection: 5
+    Multiplicative Distillation
+    Additive Distillation
+    Pathfinder's Gambit
+    // Break in a large area
+    // Stack: Pos, Dir
+    Gemini Decomposition
+    Numerical Reflection: 3
+    Dioscuri Gambit II
+    // Stack: Pos, Dir, Dir, Pos, Dir, Dir
+    Vector Reflection -Y
+    Division Distillation
+    Numerical Reflection: 5
+    Multiplicative Distillation
+    Vector Reflection: (0, -5, 0)
+    Additive Distillation
+    Additive Distillation
+    Additive Distillation
+    Vector Purification
+    Nut's Gambit: 3
+    // Stack: [P1], Pos, Dir, Dir
+    Vector Reflection +Y
+    Division Distillation
+    Vector Reflection +Y
+    Additive Distillation
+    Additive Distillation
+    Numerical Reflection: 5
+    Multiplicative Distillation
+    Additive Distillation
+    Vector Purification
+    // Stack: [P1], [P2]
+    Multiplicative Distillation // Should be Divis, but they currently have swapped functionality
+    {
+        Flock's Disintegration
+        Dioscuri Gambit
+        Maximum Distillation
+        Rotation Gambit II
+        Minimum Distillation
+    }
+    Jester's Gambit
+    Thoth's Gambit
+    Numerical Reflection: 36 // ABCDEF -> ACEBDF
+    Swindler's Distillation
+    Numerical Reflection: 3
+    Separation Gambit
+    Vector Purification
+    Jester's Gambit
+    Vector Purification
+    Numerical Reflection: 1
+    Additive Distillation // Current bugged Cubic: Ensure first vector is min and second vector is max. Currently inclusive-exclusive
+    {
+        Gemini Decomposition
+        Sorter's Purification
+        Contemplation
+        <Ancient Debris>
+        Equality Distillation
+        {
+            Gemini Decomposition
+            Break Block
+            Entity Purification: Item
+            Gemini Decomposition
+            {
+                Mind's Reflection
+                Hopper
+            }
+            Helios' Gambit
+        }
+        {
+            Gemini Decomposition
+            Coordinate Purification: Y
+            Numerical Reflection: 15
+            Numerical Reflection: 17
+            Numerical Reflection: 0
+            Range Exaltation
+            Contemplation
+            Annihilate Block
+            Contemplation
+            Bookkeeper's Gambit: v
+            Augur's Exaltation
+            Hermes' Gambit
+        }
+        Augur's Exaltation
+        Hermes' Gambit
+    }
+    Rotation Gambit II
+    False Reflection
+    Cubic Exaltation // Regions are queued in a way that makes immediate hopper not work
+    Sekhmet' Gambit: 0
+    Wander
+}
+Numerical Reflection: 4
+Mind's Reflection
+Sextant Decomposition
+Bookkeeper's Gambit: v-
+Yaw Purification
+Axial Purification
+Surgeon's Exaltation
+Mind's Reflection
+Compass' Purification II
+Numerical Reflection: 16
+Rounding Distillation
+Numerical Reflection: 15
+Coordinate Distillation: Y
+Numerical Reflection: 0.5
+Additive Distillation
+Numerical Reflection: 128
+Summon Cyclic Wisp
