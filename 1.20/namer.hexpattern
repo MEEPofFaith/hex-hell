@@ -1,0 +1,32 @@
+// Stack: Item Entity
+Gemini Decomposition
+Contemplation
+<Lectern Pos>
+Chest Purification
+Numerical Reflection: 0
+Selection Distillation
+Reading Purification (book)
+// Stack: Item, Item, [text]?
+{ // Book is empty - Clear name and description
+    Name Item
+    Nullary Reflection
+    Describe Item
+    Janus' Gambit
+}
+Coalescing Gambit
+Speaker's Decomposition
+Bubbling Gambit
+// Stack: Item, [text], Item, text
+Gemini Decomposition
+Reading Purification (text)
+Contemplation
+<Empty Text>
+Reading Purification (text) // Idk if I need this, text iota are finicky.
+Equality Distillation
+{ // Empty text - replace with null to clear
+    Bookkeeper's Gambit: v
+    Nullary Reflection
+}
+Helios' Gambit
+Name Item
+Describe Item
