@@ -1,0 +1,75 @@
+// In a cipher/other device with a memory crystal
+Stealthy Reflection
+Numerical Reflection: -1
+Inequality Distillation
+{ // Hold shift to clear
+    Contemplation
+    <Memory>
+    Nullary Reflection
+    Resonance Gambit
+    Contemplation
+    <"Target Cleared">
+    Send Thought
+    Janus' Gambit
+}
+Helios' Gambit
+Mind's Reflection
+Compass' Purification
+Mind's Reflection
+Alidade's Purification
+Archer's Distillation
+Gemini Decomposition
+Sorter's Purification
+Contemplation
+<Akashic Bookshelf>
+Equality Distillation
+Contemplation
+<"Not targetting a bookshelf">
+Ma'at's Gambit
+Contemplation
+<Memory> 
+Gemini Decomposition
+Resonance Purification
+// Stack: Target, Memory, Source?
+{ // Currently null, save target
+    Jester's Gambit
+    Gemini Decomposition
+    Librarian's Purification
+    Nullary Reflection
+    Inequality Distillation
+    Contemplation
+    <"Source shelf is empty">
+    Ma'at's Gambit
+    Resonance Gambit
+    Contemplation
+    <"Target Set">
+    Send Thought
+    Janus' Gambit
+}
+Coalescing Gambit
+// Attempt move
+// Stack: Target, Memory, Source
+Rotation Gambit
+Dioscuri Gambit
+// Stack: Memory, Source, Target, Source, Target
+Librarian's Purification
+{ // Target returns null -> is empty
+    // Stack: Memory, Source, Target, Source
+    Gemini Decomposition
+    Librarian's Purification
+    Jester's Gambit
+    Librarian's Purification II
+    Librarian's Gambit
+    Librarian's Gambit II
+    Nullary Reflection
+    Resonance Gambit
+    Contemplation
+    <"Successfully Moved">
+    Send Thought
+    Janus' Gambit
+}
+Coalescing Gambit
+False Reflection
+Contemplation
+<"Target bookshelf is occupied">
+Ma'at's Gambit
