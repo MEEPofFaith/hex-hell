@@ -1,0 +1,69 @@
+Contemplation
+<>
+Intent Input
+{
+    // Why does an empty text field return nothing on the stack
+    Flock's Reflection
+    Numerical Reflection: 0
+    Equality Distillation
+    Contemplation
+    Blank Reflection
+    Helios' Gambit
+    False Reflection
+    Case Distillation
+    Contemplation
+    <Catalog Property> // Assume a dict of string to pattern
+    Observation Purification
+    Entry Purification
+    // Stack: Search, [[name, pattern]]
+    {
+        Numerical Reflection: 0
+        Selection Distillation
+        False Reflection
+        Case Distillation
+        Contemplation
+        Bookkeeper's Gambit: -
+        Locator's Distillation
+        Numerical Reflection: -1
+        Inequality Distillation
+    }
+    Numerical Reflection: 5
+    Geb's Gambit: 3
+    Surgeon's Exaltation
+    Refinement Distillation
+    // Stack: [[name, pattern]]
+    Dexterity Reflection
+    Numerical Reflection: 0
+    Numerical Reflection: 1
+    Augur's Exaltation
+    {
+        Flock's Disintegration
+        // Stack: Hand, Name, Pattern
+        Rotation Gambit
+        Numerical Reflection: 2
+        Flock's Gambit
+        Bubbles' Purification
+        {
+            Flock's Disintegration
+            Amanuensis' Gambit
+        }
+        Jester's Gambit
+        Speaker's Distillation
+        Jester's Gambit
+        Intent Button
+    }
+    Rotation Gambit
+    Thoth's Gambit
+    Contemplation
+    <Great Spell Lookup>
+    Numerical Reflection: 10
+    Manifest Grid Menu
+}
+Contemplation
+<Search>
+Intent Button
+Numerical Reflection: 2
+Flock's Gambit
+Contemplation
+<Great Spell Lookup>
+Manifest List Menu
