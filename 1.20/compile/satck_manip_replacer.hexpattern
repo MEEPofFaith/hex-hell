@@ -1,0 +1,184 @@
+// Stack: [Hex]
+Vacant Reflection
+{
+    Gemini Decomposition
+    Classifier's Purification
+    Contemplation
+    <Pattern>
+    Equality Distillation
+    {
+        // Convert basic stack manips
+        Contemplation
+        <Basic Manips Dict>
+        Prospector's Gambit
+        Locator's Distillation
+        // Stack: [Hex], Pattern, Jumble?
+        Gemini Decomposition
+        {
+            Bookkeeper's Gambit: v-
+            Numerical Reflection: 2
+            Erebus' Gambit
+        }
+        Helios' Gambit // Jumbles are true, null is false
+        Bookkeeper's Gambit: v
+        // Convert special handler stack manips
+        Contemplation
+        <Handlers Dict>
+        Prospector's Gambit
+        Patternmaster's Purification
+        { // Name is null - immediately break out. Probably great spell.
+            Bookkeeper's Gambit: v
+            Numerical Reflection: 2
+            Erebus' Gambit
+        }
+        Coalescing Gambit
+        Contemplation
+        <": ">
+        Separation Distillation
+        // Stack: [Hex], Pattern, {Dict}, [Name]
+        Speaker's Decomposition
+        Bubbling Gambit
+        Locator's Distillation
+        // Stack: [Hex], Pattern, [Data], Handler?
+        Gemini Decomposition
+        {
+            Jester's Gambit
+            Numerical Reflection: 0
+            Selection Distillation
+            Jester's Gambit
+            Hermes' Gambit
+            Bookkeeper's Gambit: v-
+            Numerical Reflection: 2
+            Erebus' Gambit
+        }
+        Helios' Gambit
+        Bookkeeper's Gambit: vv
+        // Convert numerical stack manips. Requires looking at the previous thing in the list.
+        Contemplation
+        <Numeric Manips Dict>
+        Prospector's Gambit
+        Locator's Distillation
+        // Stack: [Hex], Pattern, Handler?
+        Gemini Decomposition
+        Augur's Purification
+        {
+            // Peek at last iota to decide what to do.
+            Rotation Gambit
+            Derivation Decomposition
+            // Stack: Pattern, Handler, [Hex], Last
+            // Is pattern -> Check if numref, then run.
+            Gemini Decomposition
+            Classifier's Purification
+            Contemplation
+            <Pattern>
+            Equality Distillation
+            {
+                Gemini Decomposition
+                Patternmaster's Purification
+                // Stack: Pattern, Handler, [Hex], Last, Name?
+                Gemini Decomposition
+                Nullary Reflection
+                Inequality Distillation
+                {
+                    Contemplation
+                    <": ">
+                    Separation Distillation
+                    Numerical Reflection: 0
+                    Selection Distillation
+                    Contemplation
+                    <"Numerical Reflection">
+                    Equality Distillation
+                    { // Is a numref
+                        // Stack: Pattern, Handler, [Hex], Last
+                        Hermes' Gambit
+                        Rotation Gambit
+                        Hermes' Gambit
+                        Bookkeeper's Gambit: v--
+                    }
+                    { // Not a numref - Put it back
+                        Integration Distillation
+                        Bookkeeper's Gambit: v-
+                        Jester's Gambit
+                    }
+                    Augur's Exaltation
+                    Hermes' Gambit
+                }
+                { // Null name - Put it back
+                    Bookkeeper's Gambit: v--v
+                    Integration Distillation
+                    Rotation Gambit II
+                }
+                Augur's Exaltation
+                Hermes' Gambit
+                Numerical Reflection: 2
+                Erebus' Gambit
+            }
+            Helios' Gambit
+
+            // Is bubble -> Check if contains num, then run.
+            Gemini Decomposition
+            Classifier's Purification
+            Contemplation
+            <Bubble>
+            Equality Distillation
+            {
+                // Stack: Pattern, Handler, [Hex], {Last}
+                Gemini Decomposition
+                Hermes' Gambit
+                // Stack: Pattern, Handler, [Hex], {Last}, Last
+                Gemini Decomposition
+                Classifier's Purification
+                Contemplation
+                <Number>
+                Equality Distillation
+                { // Is a number
+                    Bookkeeper's Gambit: v--v-
+                    Rotation Gambit
+                    Hermes' Gambit
+                }
+                { // Not a number - Put it back
+                    Bookkeeper's Gambit: v--v
+                    Integration Distillation
+                    Jester's Gambit
+                }
+                Augur's Exaltation
+                Hermes' Gambit
+                Numerical Reflection: 2
+                Erebus' Gambit
+            }
+            Helios' Gambit
+
+            // Is number -> Remove contemplation, then run. If you didn't contemplation before that number, what are you doing.
+            Gemini Decomposition
+            Classifier's Purification
+            Contemplation
+            <Number>
+            Equality Distillation
+            {
+                // Stack: Pattern, Handler, [Hex], Num
+                Jester's Gambit
+                Derivation Decomposition
+                // Stack: Pattern, Handler, Num, [Hex], Contem
+                Bookkeeper's Gambit: v---v
+                Reflecting Gambit
+                Hermes' Gambit
+                Numerical Reflection: 2
+                Erebus' Gambit
+            }
+            Helios' Gambit
+
+            // Else -> Put it back
+            Integration Distillation
+            Bookkeeper's Gambit: v-
+            Jester's Gambit
+        }
+        Contemplation
+        Bookkeeper's Gambit: v
+        Augur's Exaltation
+        Hermes' Gambit
+    }
+    Helios' Gambit
+    Integration Distillation
+}
+Rotation Gambit
+Anubis' Gambit
