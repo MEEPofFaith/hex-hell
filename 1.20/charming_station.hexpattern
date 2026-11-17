@@ -1,0 +1,73 @@
+// Stack: Item
+Gemini Decomposition
+{
+    Discharm
+}
+Athena's Gambit
+Bookkeeper's Gambit: v
+{
+    Contemplation
+    Bookkeeper's Gambit: -
+    Contemplation
+    <[[Upper frames], [Lower Frames]]>
+    Gemini Decomposition
+    Huginn's Gambit
+    // Read hexes
+    {
+        Sekhmet' Gambit: 1
+        {
+            Gemini Decomposition
+            Auditor's Purification
+            Contemplation
+            Chronicler's Purification
+            {
+                Bookkeeper's Gambit: v
+                Contemplation
+                Tutu's Gambit
+            }
+            Augur's Exaltation
+            Hermes' Gambit
+        }
+        Jester's Gambit
+        Thoth's Gambit
+    }
+    Jester's Gambit
+    Thoth's Gambit
+    // Make wrapper hex
+    // Stack: Item, Hexxes
+    {
+        Contemplation
+        Bookkeeper's Gambit: -
+        Stealthy Reflection
+        Numerical Reflection: -1
+        Inequality Distillation
+        Length Purification
+        Selection Distillation
+        Jester's Gambit
+        Selection Distillation
+        Lani's Gambit
+    }
+    Numerical Reflection: 1
+    Rotation Gambit
+    Surgeon's Exaltation
+    Numerical Reflection: 1 // Capacity. 1 since Lani.
+    // Generate input lists
+    Muninn's Reflection
+    {
+        Sekhmet' Gambit: 1
+        {
+            Jester's Gambit
+            Auditor's Purification
+            Contemplation
+            Bookkeeper's Gambit: v
+            Selene's Gambit
+        }
+        Jester's Gambit
+        Djehuty's Gambit
+    }
+    Jester's Gambit
+    Thoth's Gambit
+    Flock's Disintegration
+    Charm
+}
+Lani's Gambit // Wrap in lani for more ambit
