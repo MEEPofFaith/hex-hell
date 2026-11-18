@@ -1,0 +1,106 @@
+// Replica of what Rose did. Written without looking at Rose's version.
+// Center line shifts forwards one block, sides must shift 2 blocks.
+
+// Stack: [Bombastic Check]
+// Determine corners to move. Circle is facing east, with the wave starting at the north-west corner.
+Wave Location Rfln.
+Gemini Decomposition
+Coordinate Purification: Z
+Contemplation
+<Start Z>
+Equality Distillation
+{ // On starting end
+    // Line Corners
+    Vector Reflection +Z
+    Additive Distillation
+    Gemini Decomposition
+    Vector Reflection: (0, 0, 20)
+    Additive Distillation
+    // Side Corners
+    Gemini Decomposition
+    Vector Reflection +Z
+    Additive Distillation
+    // Is start -> Grab other side from end
+    Wave Location Rfln.
+    Coordinate Purification: X
+    Contemplation
+    <Start X>
+    Equality Distillation
+    {
+        Contemplation
+        <End X + 1>
+        Coordinate Distillation: X
+    }
+    Helios' Gambit
+}
+{ // On other end
+    // Line Corners
+    Vector Reflection -Z
+    Additive Distillation
+    Gemini Decomposition
+    Vector Reflection: (0, 0, -20)
+    Additive Distillation
+    Jester's Gambit
+    // Side Corners
+    Prospector's Gambit
+    Vector Reflection -Z
+    Additive Distillation
+}
+Augur's Exaltation
+Hermes' Gambit
+Gemini Decomposition
+Vector Reflection -X
+Additive Distillation
+Jester's Gambit
+// Stack: [Bomb], NW Line Corner, SE Line Corner, NW Side Corner, SE Side Corner
+// Determine next point
+Wave Location Rfln.
+Coordinate Purification: X
+Contemplation
+<End X>
+Equality Distillation
+{ // At end, set to start
+    Prospector's Gambit
+    Contemplation
+    <Start X>
+    Coordinate Distillation: X
+    Rotation Gambit II
+    Devour Structure
+    Actualize Structure
+    Prospector's Gambit
+    Contemplation
+    <Start X>
+    Coordinate Distillation: X
+}
+{ // Advance
+    Prospector's Gambit
+    // Is start -> Grab other side from end
+    Wave Location Rfln.
+    Coordinate Purification: X
+    Contemplation
+    <Start X>
+    Equality Distillation
+    {
+        Contemplation
+        <Start X + 1>
+        Coordinate Distillation: X
+    }
+    {
+        Vector Reflection: (2, 0, 0)
+        Additive Distillation
+    }
+    Augur's Exaltation
+    Hermes' Gambit
+    Rotation Gambit II
+    Devour Structure
+    Actualize Structure
+    Prospector's Gambit
+    Vector Reflection +X
+    Additive Distillation
+    Rotation Gambit II
+}
+Augur's Exaltation
+Hermes' Gambit
+Rotation Gambit II
+Devour Structure
+Actualize Structure
