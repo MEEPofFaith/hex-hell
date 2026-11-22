@@ -1,0 +1,71 @@
+Contemplation
+<View of Vessel>
+Gemini Decomposition
+Inquiry Purification
+{
+    Sekhmet' Gambit: 2
+    // Stack: View, Concept
+    Undertaker's Gambit
+    Debit Purification
+    // Stack: Concept, Amount
+    Prospector's Gambit
+    Reading Purification (text)
+    Contemplation
+    <" - ">
+    Additive Distillation
+    Jester's Gambit
+    Long Purification // Truncate the .00. Not necessary here.
+    Reading Purification (text)
+    Additive Distillation
+    // Stack: Concept, Text
+    Undertaker's Gambit
+    Numerical Reflection: 2
+    Flock's Gambit
+    {
+        Contemplation
+        Bookkeeper's Gambit: -
+        Jester's Gambit
+        Hermes' Gambit
+    }
+    Numerical Reflection: 1
+    Rotation Gambit
+    Surgeon's Exaltation
+    Jester's Gambit
+    Intent Button
+}
+Jester's Gambit
+Thoth's Gambit
+{
+    Flock's Disintegration
+    // Stack: View, Concept, Text
+    Numerical Reflection: 0
+    Contemplation
+    <"Amount">
+    Intent Numeric Input
+    {
+        // Stack: View, Concept, Amount
+        Gemini Decomposition
+        Numerical Reflection: 0
+        Maximus Distillation
+        Styx's Gambit
+        Numerical Reflection: 3
+        Dioscuri Gambit II
+        Bookkeeper's Gambit: v
+        Debit Purification
+        Minimum Distillation
+        Mind's Reflection
+        Weave Tunnel
+        Rotation Gambit II
+        Transfer Substance
+    }
+    Contemplation
+    <"Extract">
+    Numerical Reflection: 2
+    Flock's Gambit
+    Jester's Gambit
+    Manifest List Menu
+}
+Jester's Gambit
+Contemplation
+<"Budding Farm Access">
+Manifest List Menu
