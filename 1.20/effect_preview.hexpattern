@@ -1,0 +1,32 @@
+// Stack: Item Entity
+Gemini Decomposition
+Chronicler's Gambit
+// Attempt to play sound
+Mind's Reflection
+Single's Purification
+Haunt
+Mind's Reflection
+Compass' Purification
+Numerical Reflection: 1
+Numerical Reflection: 1
+{
+    Play Sound
+}
+Athena's Gambit
+{ // Mishaped. Attempt to spawn particle.
+    Bookkeeper's Gambit: vvv
+    Contemplation
+    <Pos> // Cannot get dais pos
+    Vector Reflection Zero
+    {
+        Conjure Particle
+    }
+    Athena's Gambit
+    { // Mishaped. Send error message.
+        Contemplation
+        <"This is not a sound or particle!">
+        Send Thought
+    }
+    Helios' Gambit
+}
+Helios' Gambit
